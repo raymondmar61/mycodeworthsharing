@@ -274,7 +274,7 @@ Sixth sentence is six words long.
 
 7.  Press F9 to sort.
 8.  Press Alt+.*period* to close HTML tags.
-9.  Press Ctrl+Shift+Del or Ctrl+K,K to delete from the cursor to the end of the line.
-10.  Press Ctrl+Shift+Backspace or Ctrl+K,Backspace to delete from the cursor to the start of the line.
+9.  Press Ctrl+Shift+Del or hold Ctrl,K,K to delete from the cursor to the end of the line.
+10.  Press Ctrl+Shift+Backspace or hold Ctrl,K,Backspace to delete from the cursor to the start of the line.
 
 Bonus 1:  Ctrl+G to go to a line number.
