@@ -213,11 +213,12 @@ Delete the line say goodbye.
 Original
 Delete the line say goodbye.
 
-4.  Highlight the contents inside the parenthesis, brackets, or braces. pressing Ctrl+Shift+M.  Press Ctrl+Shift+M again to highlight both its parenthesis, brackets, or braces.  Also, press Ctrl+M to go to the end of the parenthesis, brackets, or braces when the cursor is inside.  Press Ctrl+M, Ctrl+M to go to the beginning.  Use Ctrl+Shift+.*period* for Emmet HTML tags.
+4.  Highlight the contents inside the parenthesis, brackets, or braces. pressing Ctrl+Shift+M.  Press Ctrl+Shift+M again to highlight both its parenthesis, brackets, or braces.  Also, press Ctrl+M to go to the end of the parenthesis, brackets, or braces when the cursor is inside.  Press Ctrl+M, Ctrl+M to go to the beginning or go to the end.  Press Ctrl+Shift+M to select inside the paranthesis, brackets, or braces, then press left arrow to go to the beginning or the right arrow to go to the end.  Use Ctrl+Shift+.*period* for Emmet HTML tags.
 
 onewordmovies = ("Babe","Parasite","UP!","Aliens","Casablanca")
 onewordmovies = {"Babe","Parasite","UP!","Aliens","Casablanca"}
 onewordmovies = ["Babe","Parasite","UP!","Aliens","Casablanca"]
+onewordmoviesnested = (("Babe","Parasite"),(("UP!"),("Aliens"),("Casablanca")))
 
 Bonus 1.  Autocomplete.  Press Ctrl+Spacebar while the cursor is between h and r in the word three.  Opens drop down suggestion window or snippets.  Ctrl+Spacebar works when typing a partial word.  Type a partial word Casa, then press Ctrl+Spacebar to either complete the word Casablanca, or open drop down suggestion window or snippets if type a partial world Cas.
 
