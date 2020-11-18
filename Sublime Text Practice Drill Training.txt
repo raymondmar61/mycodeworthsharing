@@ -279,3 +279,22 @@ Sixth sentence is six words long.
 10.  Press Ctrl+Shift+Backspace or hold Ctrl,K,Backspace to delete from the cursor to the start of the line.
 
 Bonus 1:  Ctrl+G to go to a line number.
+
+#Highlight between quotes
+
+1.  Install package Expand Selection to Quotes
+2.  Press Ctrl+' to highlight between the quotes sentence below.
+
+"Press Ctrl and single quote to highlight the sentence."
+
+#Bookmarks
+
+Press Ctrl+F2 to insert a bookmark.  Press F2 to go to next bookmark.  Press Ctrl+Shift+f2 to delete a bookmark.  Full menu path is Goto-->Bookmarks or Alt,G,B.
+
+#Center at cursor
+
+Press Ctrl+K, Ctrl+C.  Full menu is Goto-->Scroll-->Scroll to selection or Alt,G,S,Enter.
+
+#Select text or select string.
+
+Press Ctrl+Shift+Spacebar to select all text or most text depending on the file type.
