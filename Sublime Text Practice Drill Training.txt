@@ -176,7 +176,7 @@ pluto
 
 3a.  Press Ctrl+P.  Type @ followed by a function name to go to the function.  Press Enter.
 3b.  Press Ctrl+P.  Type # followed by a text to go to the text.  Press Enter.
-3c.  Press Ctrl+P.  Type : followed by a line number to go to the line number.  Press Enter.
+3c.  Press Ctrl+P.  Type : followed by a line number to go to the line number.  Press Enter.  Another way is press Ctrl+G.
 3d.  Press Ctrl+P to view recent files.  You can peak at the files displayed on Ctrl+P GoTo Anything.  Press Enter to open the file.
 3e.  Press Ctrl+P to view recent files.  Type part of a file name followed by @ and a function name to view the file name's function. Press Enter to open the file at the location.
 3f.  Press Ctrl+P to view recent files.  Type part of a file name followed by # and a text to view the file name's text. Press Enter to open the file at the location.
@@ -278,7 +278,7 @@ Sixth sentence is six words long.
 9.  Press Ctrl+Shift+Del or hold Ctrl,K,K to delete from the cursor to the end of the line.
 10.  Press Ctrl+Shift+Backspace or hold Ctrl,K,Backspace to delete from the cursor to the start of the line.
 
-Bonus 1:  Ctrl+G to go to a line number.
+Bonuses below starting with the number sign #.
 
 #Highlight between quotes
 
@@ -298,3 +298,14 @@ Press Ctrl+K, Ctrl+C.  Full menu is Goto-->Scroll-->Scroll to selection or Alt,G
 #Select text or select string.
 
 Press Ctrl+Shift+Spacebar to select all text or most text depending on the file type.
+
+#Insert parenthesis, brackets, or braces between text or a sentence.
+
+1.  Highlight text or a string.
+2.  Press Shift+9 for parenthesis, [ for brackets, { for braces.
+
+Highlight the two sentences to enclose me inside parenthesis.  Then press the left parenthesis.
+
+End result-->(Highlight the two sentences to enclose me inside parenthesis.  Then press the left parenthesis.)
+
+Original sentence-->Highlight the two sentences to enclose me inside parenthesis.  Then press the left parenthesis.
