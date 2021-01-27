@@ -21,6 +21,7 @@ Blue is the phone.
 We lovel the breathe air.
 Candy dandy.
 Bite the tree.
+Pretend the sentence is in an HTML file.  Highlight these three sentences or press Ctrl+L then Ctrl+Shift+L.  Press Alt+Shift+W to wrap the sentence in an HTML tag.
 
 #Sublime Text Line and Indentation Tools (Tutorial #2)
 
@@ -40,12 +41,11 @@ Perfect practice makes perfect.
 Red
 Blue
 Green
-Yellow
 
 4.  Correct the indent for the following paragraph pressing Ctrl+] or Ctrl+Right Bracket to indent anywhere in each sentence.  Press Ctrl+[ or Ctrl+Left Bracket to unindent anywhere in each sentence.
 			Here is a paragraph about good writing.
 	Use proper English for the reader to understand.
-A third paragraph is here.
+	A third paragraph is here.
 	The last sentence in the paragraph to highlight.
 		I lied.  Here is the last paragraph to highlight.
 
@@ -62,13 +62,14 @@ I lied.  Here is the last paragraph to highlight.
 A third paragraph is here.
 	The last sentence in the paragraph to highlight.
 		I lied.  Here is the last paragraph to highlight.
-
+		
 7.  Press Ctrl+Shift+V for smart paste and smart indentation.  Copy the five sentences below.  Then paste press Ctrl+Shift+V the five sentences below below.
 				Here is a paragraph about good writing.
 	Use proper English for the reader to understand.
 A third paragraph is here.
 	The last sentence in the paragraph to highlight.
 		I lied.  Here is the last paragraph to highlight.  Smart indentation may not work in text files.
+
 
 8.  Press Ctrl+Enter to insert a line with cursor at new line.  Or move text below one line while cursor move below.
 Yes is a good word sometimes.
@@ -81,6 +82,11 @@ Insert line above.
 No is a bad word sometimes.
 
 10.  Press Ctrl+J to join the two sentences below into one.  Place cursor at the end of the first sentence.  Press Ctrl+J multiple times to join multiple sentences into one.
+A fire extinguisher is a must anywhere indoors.
+I look beautiful wearing a green shirt.
+Follow the bouncing ball.
+
+Original
 A fire extinguisher is a must anywhere indoors.
 I look beautiful wearing a green shirt.
 Follow the bouncing ball.
@@ -100,6 +106,9 @@ Follow the bouncing ball.
 #Sublime Text Command Palette (Tutorial #4)
 
 1.  Practice using Command Palette to speed up editing or programming.  Highlight the sentence below.  Press Ctrl+Shift+P.  Type case or convert.  Convert the sentence any choice.
+The quick brown fox jumped over the lazy dog.
+
+Original
 The quick brown fox jumped over the lazy dog.
 
 2.  Examples of Command Palette from number 2 are convert case, sort, reverse sort, HTML encode, and set syntax such as HTML.
@@ -164,7 +173,7 @@ tweety
 
 Disney
 mickeymouse
-donaldduck
+donald duck
 goofy
 pluto
 
@@ -174,8 +183,21 @@ daffy
 tweety
 pluto
 
+Original
+Looney Tunes
+bugsbunny
+daffy
+sylvester
+tweety
+
+Disney
+mickeymouse
+donald duck
+goofy
+pluto
+
 3a.  Press Ctrl+P.  Type @ followed by a function name to go to the function.  Press Enter.
-3b.  Press Ctrl+P.  Type # followed by a text to go to the text.  Press Enter.
+3b.  Press Ctrl+P.  Type # followed by a text to go to the text.  Press Enter.  Press the arrow keys to move around the file with the text; e.g, press Ctrl+P, type #html, press up and down arrows.  Press Esc to exit.
 3c.  Press Ctrl+P.  Type : followed by a line number to go to the line number.  Press Enter.  Another way is press Ctrl+G.
 3d.  Press Ctrl+P to view recent files.  You can peak at the files displayed on Ctrl+P GoTo Anything.  Press Enter to open the file.
 3e.  Press Ctrl+P to view recent files.  Type part of a file name followed by @ and a function name to view the file name's function. Press Enter to open the file at the location.
@@ -220,7 +242,7 @@ onewordmovies = {"Babe","Parasite","UP!","Aliens","Casablanca"}
 onewordmovies = ["Babe","Parasite","UP!","Aliens","Casablanca"]
 onewordmoviesnested = (("Babe","Parasite"),(("UP!"),("Aliens"),("Casablanca")))
 
-Bonus 1.  Autocomplete.  Press Ctrl+Spacebar while the cursor is between h and r in the word three.  Opens drop down suggestion window or snippets.  Ctrl+Spacebar works when typing a partial word.  Type a partial word Casa, then press Ctrl+Spacebar to either complete the word Casablanca, or open drop down suggestion window or snippets if type a partial world Cas.
+Bonus 1.  Autocomplete.  Press Ctrl+Spacebar while the cursor is between h and r in the word three.  Opens drop down suggestion window or snippets.  Ctrl+Spacebar works when typing a partial word.  Type a partial word Casa, then press Ctrl+Spacebar to either complete the word Casablanca, or open drop down suggestion window or snippets if type a partial world Cas.  Cas
 
 three
 
@@ -278,14 +300,37 @@ Sixth sentence is six words long.
 9.  Press Ctrl+Shift+Del or hold Ctrl,K,K to delete from the cursor to the end of the line.
 10.  Press Ctrl+Shift+Backspace or hold Ctrl,K,Backspace to delete from the cursor to the start of the line.
 
+Practice delete from the beginning of the cursor by placing the cursor anywhere on the sentence.
+Practice delete from the end of the cursor by placing the cursor anywhere on the sentence.
+
+Original
+Practice delete from the beginning of the cursor by placing the cursor anywhere on the sentence.
+Practice delete from the end of the cursor by placing the cursor anywhere on the sentence.
+
 Bonuses below starting with the number sign #.
 
-#Highlight between quotes
+#Insert quotes between highlighted text
+
+1.  Press ' to insert single quotes at the first sentence below.  Press Shift+' to insert double quotes at the second sentence below.
+
+Highlight the sentence and press ' to insert single quotes.
+Highlight the sentence and press " to insert double quotes.
+
+Original
+Highlight the sentence and press ' to insert single quotes.
+Highlight the sentence and press " to insert double quotes.
+
+#Select text between quotes
 
 1.  Install package Expand Selection to Quotes
-2.  Press Ctrl+' to highlight between the quotes sentence below.
+2.  Press ' to highlight between the quotes sentence below.
 
 "Press Ctrl and single quote to highlight the sentence."
+"Press Ctrl and single quote twice to highlight the sentence and the double quotes."
+
+Original
+"Press Ctrl and single quote to highlight the sentence."
+"Press Ctrl and single quote twice to highlight the sentence and the double quotes."
 
 #Bookmarks
 
