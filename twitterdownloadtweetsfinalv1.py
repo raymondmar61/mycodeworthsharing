@@ -8,10 +8,10 @@ import csv
 twitterUserHandle = ""
 
 #2.  Input Twitter credentials
-# accesstoken = ""
-# accesstokensecret = ""
-# consumerkey = ""
-# consumersecret = ""
+accesstoken = ""
+accesstokensecret = ""
+consumerkey = ""
+consumersecret = ""
 authenticate = tweepy.OAuthHandler(consumerkey, consumersecret)
 authenticate.set_access_token(accesstoken, accesstokensecret)
 api = tweepy.API(authenticate)
