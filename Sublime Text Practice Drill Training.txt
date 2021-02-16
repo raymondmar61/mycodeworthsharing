@@ -71,12 +71,12 @@ A third paragraph is here.
 		I lied.  Here is the last paragraph to highlight.  Smart indentation may not work in text files.
 
 
-8.  Press Ctrl+Enter to insert a line with cursor at new line.  Or move text below one line while cursor move below.
+8.  Press Ctrl+Enter to insert a line with cursor at new line.  Or move text below one line while cursor move below.  Cursor can be anywhere to insert an empty line.
 Yes is a good word sometimes.
 Insert line below.
 No is a bad word sometimes.
 
-9.  Press Ctrl+Shift+Enter to insert a line above with cursor at new line.  Or move text below one line while cursor doesn't move below.
+9.  Press Ctrl+Shift+Enter to insert a line above with cursor at new line.  Or move text below one line while cursor doesn't move below.  Cursor can be anywhere to insert an empty line.
 Yes is a good word sometimes.
 Insert line above.
 No is a bad word sometimes.
