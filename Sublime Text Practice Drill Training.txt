@@ -15,13 +15,32 @@ Friday
 Saturday
 Sunday
 
-3.  Highlight a sentence.  Press Ctrl+L to select sentence with paragraph break.  Press Ctrl+L, Ctrl+Shift+L to select sentence without paragraph break and have cursor at the end of the sentences.   Press Ctrl+L multiple times to select multiple sentences.  Press Ctrl+Shift+L last to ignore the last paragraph break and have multiple cursors at the end of the sentences.  For HTML, press Alt+Shift+W to wrap selection(s) with an HTML tag.  Also, highlight sentences with the mouse.  Press Ctrl+Shift+L to have multiple cursors at the end of the sentences.  Press Home for cursors at the beginning of the sentences.
+3a.  Highlight a sentence.  Press Ctrl+L to select sentence with paragraph break.  Press Ctrl+L, Ctrl+Shift+L to select sentence without paragraph break and have cursor at the end of the sentences.   Press Ctrl+L multiple times to select multiple sentences.  Press Ctrl+Shift+L last to ignore the last paragraph break and have multiple cursors at the end of the sentences.  For HTML, press Alt+Shift+W to wrap selection(s) with an HTML tag.  Also, highlight sentences with the mouse.  Press Ctrl+Shift+L to have multiple cursors at the end of the sentences.  Press Home for cursors at the beginning of the sentences.
 Today is a day.
 Blue is the phone.
 We lovel the breathe air.
 Candy dandy.
 Bite the tree.
-Pretend the sentence is in an HTML file.  Highlight these three sentences or press Ctrl+L then Ctrl+Shift+L.  Press Alt+Shift+W to wrap the sentence in an HTML tag.
+
+3b.  Pretend the sentences are in an HTML file.  Highlight these three sentences or press Ctrl+L then Ctrl+Shift+L.  Press Alt+Shift+W to wrap the three sentences in an HTML tag.
+We lovel the breathe air.
+Candy dandy.
+Bite the tree.
+
+Solution:
+<p>We lovel the breathe air.
+Candy dandy.
+Bite the tree.</p>
+
+3c.  Pretend the sentences are in an HTML file.  Highlight these three sentences then Ctrl+Shift+L.  Press Alt+Shift+W to wrap the three sentences in their own HTML tag.
+We lovel the breathe air.
+Candy dandy.
+Bite the tree.
+
+Solution:
+<p>We lovel the breathe air.</p>
+<p>Candy dandy.</p>
+<p>Bite the tree.</p>
 
 #Sublime Text Line and Indentation Tools (Tutorial #2)
 
@@ -62,14 +81,20 @@ I lied.  Here is the last paragraph to highlight.
 A third paragraph is here.
 	The last sentence in the paragraph to highlight.
 		I lied.  Here is the last paragraph to highlight.
-		
+
+Solution:
+Here is a paragraph about good writing.
+Use proper English for the reader to understand.
+A third paragraph is here.
+The last sentence in the paragraph to highlight.
+I lied.  Here is the last paragraph to highlight.
+
 7.  Press Ctrl+Shift+V for smart paste and smart indentation.  Copy the five sentences below.  Then paste press Ctrl+Shift+V the five sentences below below.
 				Here is a paragraph about good writing.
 	Use proper English for the reader to understand.
 A third paragraph is here.
 	The last sentence in the paragraph to highlight.
 		I lied.  Here is the last paragraph to highlight.  Smart indentation may not work in text files.
-
 
 8.  Press Ctrl+Enter to insert a line with cursor at new line.  Or move text below one line while cursor move below.  Cursor can be anywhere to insert an empty line.
 Yes is a good word sometimes.
