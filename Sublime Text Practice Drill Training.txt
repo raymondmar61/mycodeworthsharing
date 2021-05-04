@@ -158,6 +158,8 @@ The quick brown fox jumped over the lazy dog.
 4.  You may close Sublime Text and reopen Sublime Text after installation is completed.
 5.  The procedure is the same for installing other packages.
 
+Press !, tab to begin an HTML file with the Emmet template.
+
 #Sublime Text Create New Snippet (Tutorial #8)
 
 1.  Create a personal snippet.  Tools-->Developer-->New Snippet.
@@ -322,8 +324,8 @@ Sixth sentence is six words long.
 
 7.  Press F9 to sort.
 8.  Press Alt+.*period* to close HTML tags.
-9.  Press Ctrl+Shift+Del or hold Ctrl,K,K to delete from the cursor to the end of the line.
-10.  Press Ctrl+Shift+Backspace or hold Ctrl,K,Backspace to delete from the cursor to the start of the line.
+9.  Press Ctrl+Shift+Del or press Ctrl, K, K to delete from the cursor to the end of the line.
+10.  Press Ctrl+Shift+Backspace or press Ctrl, K, Backspace to delete from the cursor to the start of the line.
 
 Practice delete from the beginning of the cursor by placing the cursor anywhere on the sentence.
 Practice delete from the end of the cursor by placing the cursor anywhere on the sentence.
@@ -379,3 +381,5 @@ Highlight the two sentences to enclose me inside parenthesis.  Then press the le
 End result-->(Highlight the two sentences to enclose me inside parenthesis.  Then press the left parenthesis.)
 
 Original sentence-->Highlight the two sentences to enclose me inside parenthesis.  Then press the left parenthesis.
+
+Dummy text or temporary text-->type lorem, press tab
