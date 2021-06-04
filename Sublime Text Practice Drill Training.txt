@@ -6,7 +6,7 @@ YouTube Channel Sources:  LevelUpTuts, tutoriaLinux, Learn Coding Tutorials, Cor
 1.  Hold Ctrl single mouse click before the letter c for all the words cat to create multiple cursors.  Also, press Ctrl+D,D multiple times to select cat multiple times.  Bonus press Alt+F3 to select all words cat.  Bonus press Ctrl+F3 to find and select the next cat word.
 I once had a cat.  The cat was fast.  He was much faster than the average cat.
 
-2.  Create multiple cursor lines at the beginning of the days by pressing Shift+Right Mouse Click drag down the beginning of the days.  Create multiple cursor lines at the end of the days by pressing Shift+Right Mouse Click drag down the end of the days.  Another way to create multiple cursor lines at the end of the days is press Shift+Right Mouse Click drag down at the beginning of the days, then press End.  A third way to create multiple cursor lines is highlight all days, then press Ctrl+Shift+L, Right Cursor or End.  A fourth way to create multiple cursor lines is highlight all days, then press Ctrl+Shift+L, Left Cursor or Home.
+2.  Create multiple cursor lines at the beginning of the days by pressing Shift+Right Mouse Click drag down the beginning of the days.  Create multiple cursor lines at the end of the days by pressing Shift+Right Mouse Click drag down the end of the days.  Another way to create multiple cursor lines at the end of the days is press Shift+Right Mouse Click drag down at the beginning of the days, then press End.  A third way to create multiple cursor lines is highlight all days, then press Ctrl+Shift+L, Right Cursor or End.  A fourth way to create multiple cursor lines is highlight all days, then press Ctrl+Shift+L, Left Cursor or Home.  A fifth way to create multiple cursor lines is hold Alt+Ctrl, press Down Cursor the number of lines, and press End.
 Monday
 Tuesday
 Wednesday
@@ -45,28 +45,28 @@ Solution:
 #Sublime Text Line and Indentation Tools (Tutorial #2)
 
 1.  Reorder the days of the week from Mon to Sun pressing Ctrl+Shift+Up Arrow or Ctrl+Shift+Down Arrow.
-Friday
+Monday
 Tuesday
 Wednesday
-Monday
 Thursday
+Friday
 Saturday
 Sunday
 
 2.  Duplicate the line below pressing Ctrl+Shift+D.  The duplication works when multiple lines are highlighted.
 Perfect practice makes perfect.
+Perfect practice makes perfect.
 
 3.  Delete the least like color pressing Ctrl+Shift+K.
-Red
 Blue
 Green
 
 4.  Correct the indent for the following paragraph pressing Ctrl+] or Ctrl+Right Bracket to indent anywhere in each sentence.  Press Ctrl+[ or Ctrl+Left Bracket to unindent anywhere in each sentence.
-			Here is a paragraph about good writing.
-	Use proper English for the reader to understand.
-	A third paragraph is here.
-	The last sentence in the paragraph to highlight.
-		I lied.  Here is the last paragraph to highlight.
+				Here is a paragraph about good writing.
+			Use proper English for the reader to understand.
+			A third paragraph is here.
+			The last sentence in the paragraph to highlight.
+			I lied.  Here is the last paragraph to highlight.
 
 5.  Shrink the following paragraph pressing Ctrl+Shift+[ highlighting the entire paragraph.  Press Ctrl++Shift+] to unshrink.
 Here is a paragraph about good writing.
@@ -75,7 +75,7 @@ A third paragraph is here.
 The last sentence in the paragraph to highlight.
 I lied.  Here is the last paragraph to highlight.
 
-6.  Reindent smart Edit-->Line-->Reindent or Alt,E,L,R.  Can highlight the entire paragraph to reindent.
+6.  Reindent smart Edit-->Line-->Reindent or Alt,E,L,R.  Highlight the entire paragraph, dit-->Line-->Reindent or Alt,E,L,R to reindent.
 				Here is a paragraph about good writing.
 	Use proper English for the reader to understand.
 A third paragraph is here.
@@ -136,7 +136,7 @@ The quick brown fox jumped over the lazy dog.
 Original
 The quick brown fox jumped over the lazy dog.
 
-2.  Examples of Command Palette from number 2 are convert case, sort, reverse sort, HTML encode, and set syntax such as HTML.
+2.  Examples of Command Palette from number 2 are convert case, sort, reverse sort, HTML encode, reindent, and set syntax such as HTML.
 
 #Sublime Text Package Manager (Tutorial #5)
 
@@ -158,7 +158,7 @@ The quick brown fox jumped over the lazy dog.
 4.  You may close Sublime Text and reopen Sublime Text after installation is completed.
 5.  The procedure is the same for installing other packages.
 
-Press !, tab to begin an HTML file with the Emmet template.
+Press !, tab to begin an HTML file with the Emmet template.  Emmet HTML template.
 
 #Sublime Text Create New Snippet (Tutorial #8)
 
@@ -383,3 +383,21 @@ End result-->(Highlight the two sentences to enclose me inside parenthesis.  The
 Original sentence-->Highlight the two sentences to enclose me inside parenthesis.  Then press the left parenthesis.
 
 Dummy text or temporary text-->type lorem, press tab
+
+#Sublime Text 4.0 New Features My Highlights
+
+1.  Multi-select tabs opens in its own window.  Sublime Text is open with multiple tabs.  Single mouse click another tab opens the tab in another column.  Click the open tab closes the another column.
+
+2.  File-->New View into File is replaced with File-->Split View.
+
+3.  Python 3.8 API added.
+
+4.  Text drag and drop supported on Linux.  Side note:  text drag and drop has been supported on Windows.
+
+5.  Join lines Ctrl+J is replaced with Ctrl+Shift+J.
+
+6.  Auto Complete Ctrl+Space supported on Linux.
+
+7.  Linux Alt+Shift+Left Mouse Click another way for column selection binding or create multiple cursor lines.  Shift+Right Mouse Click also works.
+
+8.  Shift+F10 opens context menu.  It's like right mouse click for pop up menu.
