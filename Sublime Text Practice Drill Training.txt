@@ -46,20 +46,20 @@ Solution:
 
 1.  Reorder the days of the week from Mon to Sun pressing Ctrl+Shift+Up Arrow or Ctrl+Shift+Down Arrow.
 Monday
+Saturday
 Tuesday
-Wednesday
 Thursday
 Friday
-Saturday
+Wednesday
 Sunday
 
 2.  Duplicate the line below pressing Ctrl+Shift+D.  The duplication works when multiple lines are highlighted.
-Perfect practice makes perfect.
 Perfect practice makes perfect.
 
 3.  Delete the least like color pressing Ctrl+Shift+K.
 Blue
 Green
+Red
 
 4.  Correct the indent for the following paragraph pressing Ctrl+] or Ctrl+Right Bracket to indent anywhere in each sentence.  Press Ctrl+[ or Ctrl+Left Bracket to unindent anywhere in each sentence.
 				Here is a paragraph about good writing.
@@ -106,7 +106,7 @@ Yes is a good word sometimes.
 Insert line above.
 No is a bad word sometimes.
 
-10.  Press Ctrl+J to join the two sentences below into one.  Place cursor at the end of the first sentence.  Press Ctrl+J multiple times to join multiple sentences into one.
+10.  Press Ctrl+Shift+J to join the two sentences below into one.  Place cursor at the end of the first sentence.  Press Ctrl+Shift+J multiple times to join multiple sentences into one.
 A fire extinguisher is a must anywhere indoors.
 I look beautiful wearing a green shirt.
 Follow the bouncing ball.
@@ -130,13 +130,13 @@ Follow the bouncing ball.
 
 #Sublime Text Command Palette (Tutorial #4)
 
-1.  Practice using Command Palette to speed up editing or programming.  Highlight the sentence below.  Press Ctrl+Shift+P.  Type case or convert.  Convert the sentence any choice.
+1.  Practice using Command Palette to speed up editing or programming.  Highlight the sentence below.  Press Ctrl+Shift+P.  Type case or convert.  Convert the sentence any choice.  A personal tip is think of Shift in Ctrl+Shift+P as using a command from the menu bar.
 The quick brown fox jumped over the lazy dog.
 
 Original
 The quick brown fox jumped over the lazy dog.
 
-2.  Examples of Command Palette from number 2 are convert case, sort, reverse sort, HTML encode, reindent, and set syntax such as HTML.
+2.  Examples of Command Palette are convert case, sort, reverse sort, HTML encode, reindent, and set syntax such as HTML.
 
 #Sublime Text Package Manager (Tutorial #5)
 
@@ -147,7 +147,9 @@ The quick brown fox jumped over the lazy dog.
 
 #Sublime Text Snippets (Tutorial #6)
 
-1.  Explain by an example.  Open a blank .html file.  Type html, press tab, standard tags appeared.
+1a.  Explain by an example.  Open a blank .html file.  Type html, press tab, standard tags appeared.
+1b.  You may have to use the snippets from the menu bar Tools-->Snippets-->Snippet: HTML or Ctrl+Shift+P, type snippet, select Snippet: HTML.
+1c.  If you have Emmet installed from Sublime Text Emmet (Tutorial #7), then use the Emmet HTML template by typing ! and pressing tab Emmet HTML template.
 2.  View the snippets available in file and the file syntax.  Tools-->Snippets....
 
 #Sublime Text Emmet (Tutorial #7)
@@ -158,7 +160,7 @@ The quick brown fox jumped over the lazy dog.
 4.  You may close Sublime Text and reopen Sublime Text after installation is completed.
 5.  The procedure is the same for installing other packages.
 
-Press !, tab to begin an HTML file with the Emmet template.  Emmet HTML template.
+Press !, tab to begin an HTML file with the Emmet HTML template.
 
 #Sublime Text Create New Snippet (Tutorial #8)
 
@@ -176,6 +178,16 @@ Press !, tab to begin an HTML file with the Emmet template.  Emmet HTML template
 
 1.  IMO, use the default themes and color schemes.
 
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "Default.sublime-theme",
+}
+
 #Sublime Text Custom Settings and Split Layout (Tutorial #12)
 
 1.  Change custom settings go to Preferences-->Settings.
@@ -184,7 +196,9 @@ Press !, tab to begin an HTML file with the Emmet template.  Emmet HTML template
 
 3.  Open three files.  Press Alt+Shift+3 to open three columns.  Drag the second file to the middle column.  Drag the third file to the right column.
 
-4.  See the same file in two different columns.  Press Alt+Shift+2.  Click anywhere in initial file to be seen in second column.  File-->New View into File.  Drag second tab to the right column.
+4a.  See the same file in two different columns.  Press Alt+Shift+2.  Click anywhere in initial file to be seen in second column.  File-->New View into File.  Drag second tab to the right column.
+
+4b.  Sublime Text 4.0 File-->Split View opens the same file in a new column.
 
 #Sublime Text Basics All the Best Features in One Video
 
@@ -223,7 +237,7 @@ donald duck
 goofy
 pluto
 
-3a.  Press Ctrl+P.  Type @ followed by a function name to go to the function.  Press Enter.
+3a.  Press Ctrl+P.  Type @ followed by a function name to go to the function.  Press Enter.  Another way is press Ctrl+R.
 3b.  Press Ctrl+P.  Type # followed by a text to go to the text.  Press Enter.  Press the arrow keys to move around the file with the text; e.g, press Ctrl+P, type #html, press up and down arrows.  Press Esc to exit.
 3c.  Press Ctrl+P.  Type : followed by a line number to go to the line number.  Press Enter.  Another way is press Ctrl+G.
 3d.  Press Ctrl+P to view recent files.  You can peak at the files displayed on Ctrl+P GoTo Anything.  Press Enter to open the file.
@@ -234,7 +248,7 @@ pluto
 4.  Find-->Find in Files or Ctrl+Shift+F.  Enter a word in Find field.  Also, highlight a word, press Ctrl+Shift+F, the Find field is populated with the highlighted word.  The Find Results tab is created with the search results from all files searched with number lines and file path.  Double click the file path opens the file.  Double click on the string opens the file and cursor is at the string line number.
 
 Scroll up and down without the mouse wheel.
-Press Ctrl+Up Arrow to scroll up.  Press Ctrl+Down to scroll down.
+Press Ctrl+Up Arrow to scroll up.  Press Ctrl+Down Arrow to scroll down.
 
 #17 Sublime Text Shortcuts and Tips
 
@@ -277,13 +291,13 @@ Bonus 2.  No need to type the underscore in a word to use the autocomplete or th
 
 #Best Sublime Text Features and Shortcuts (Windows)
 
-1.  Sublime Text has multiple tabs opened.  Press Ctrl+Page Up open tab to the left.  Press Ctrl+Page Down open tab on the right.  Both cycles through the tabs.
+1a.  Sublime Text has multiple tabs opened.  Press Ctrl+Page Up open tab to the left.  Press Ctrl+Page Down open tab on the right.  Both cycles through the tabs.
+1b.  Press Alt+n for which n is the tab number.  Alt+1 opens the leftmost tab.  Alt+2 opens the tab on the right of the leftmost tab.  Number 1 starts on the leftmost tab.
 
 2.  Press Ctrl+W to close a tab.  Press Ctrl+Shift+T to reopen the recent closed tab.
 
-3.  Press Ctrl+/ to comment a string.
-
-Bonus 1.  Press Ctrl+Shift+/ to block comment strings.
+3a.  Press Ctrl+/ to comment a string.
+3b.  Press Ctrl+Shift+/ to block comment strings.
 
 #The Best Sublime Text 3 Settings and Packages
 
@@ -293,7 +307,7 @@ Bonus 1.  Press Ctrl+Shift+/ to block comment strings.
 
 1.  Press F11 for full screen.  Press Shift+F11 for distraction-free full screen.
 2.  Press Ctrl+R to search for methods or functions.
-3.  Press Ctrl+K, Ctrl+V or Ctrl+K,V to open a popup window with the last 15 copies.
+3.  Press Ctrl+K, Ctrl+V or Ctrl+K,V to open a popup window with the last 15 copies.  A personal tip is think of the letter V in Ctrl+V as paste.
 4.  Press Ctrl+Shift+A to select contents in an HTML element.
 5.  Press Ctrl+Alt+Up Arrow or Ctrl+Alt+Down Arrow to create additional cursor lines immediately above or below text.
 
@@ -307,10 +321,10 @@ Place cursor between these words one two.
 
 6.  Swap text.  Switch the first sentence and the fourth sentence positions.  The first sentence is the fourth sentence.  The fourth sentence is the first sentence.  Highlight the first sentence.  Highlight the fourth sentence.  Press Ctrl+T.  Sentences are swapped.
 
-First sentence is summer days are hot days.
+Fourth sentence is orange is an orange color and a fruit.
 Second sentence is peanut butter and jelly sandwich.
 Third sentence is the Chicago Bulls won six NBA titles in the 1990s.
-Fourth sentence is orange is an orange color and a fruit.
+First sentence is summer days are hot days.
 Fifth sentence is yellow mellow tellow jell-o.
 Sixth sentence is six words long.
 
@@ -365,7 +379,7 @@ Press Ctrl+F2 to insert a bookmark.  Press F2 to go to next bookmark.  Press Ctr
 
 #Center at cursor
 
-Press Ctrl+K, Ctrl+C.  Full menu is Goto-->Scroll-->Scroll to selection or Alt,G,S,Enter.
+Press Ctrl+K, Ctrl+C.  Full menu is Goto-->Scroll-->Scroll to selection or Alt,G,S,Enter.  A personal tip is think of the letter C in Ctrl+C as center.
 
 #Select text or select string.
 
@@ -382,7 +396,13 @@ End result-->(Highlight the two sentences to enclose me inside parenthesis.  The
 
 Original sentence-->Highlight the two sentences to enclose me inside parenthesis.  Then press the left parenthesis.
 
-Dummy text or temporary text-->type lorem, press tab
+#Dummy text
+Type lorem, press tab.
+
+#Goto modifications
+
+1.  Press Ctrl+,*comma* to go to previous modified text in line number order.
+2.  Press Ctrl+.*period* to go to next modified text in line number order.
 
 #Sublime Text 4.0 New Features My Highlights
 
