@@ -22,7 +22,9 @@ We lovel the breathe air.
 Candy dandy.
 Bite the tree.
 
-3b.  Pretend the sentences are in an HTML file.  Highlight these three sentences or press Ctrl+L then Ctrl+Shift+L.  Press Alt+Shift+W to wrap the three sentences in an HTML tag.
+3b.  Triple mouse click a paragraph or a line selects the entire paragraph or line.
+
+3c.  Pretend the sentences are in an HTML file.  Highlight these three sentences or press Ctrl+L then Ctrl+Shift+L.  Press Alt+Shift+W to wrap the three sentences in an HTML tag.
 We lovel the breathe air.
 Candy dandy.
 Bite the tree.
@@ -32,7 +34,7 @@ Solution:
 Candy dandy.
 Bite the tree.</p>
 
-3c.  Pretend the sentences are in an HTML file.  Highlight these three sentences then Ctrl+Shift+L.  Press Alt+Shift+W to wrap the three sentences in their own HTML tag.
+3d.  Pretend the sentences are in an HTML file.  Highlight these three sentences then Ctrl+Shift+L.  Press Alt+Shift+W to wrap the three sentences in their own HTML tag.
 We lovel the breathe air.
 Candy dandy.
 Bite the tree.
