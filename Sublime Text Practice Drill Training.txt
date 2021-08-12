@@ -6,7 +6,7 @@ YouTube Channel Sources:  LevelUpTuts, tutoriaLinux, Learn Coding Tutorials, Cor
 1.  Hold Ctrl single mouse click before the letter c for all the words cat to create multiple cursors.  Also, press Ctrl+D,D multiple times to select cat multiple times.  Bonus press Alt+F3 to select all words cat.  Bonus press Ctrl+F3 to find and select the next cat word.
 I once had a cat.  The cat was fast.  He was much faster than the average cat.
 
-2.  Create multiple cursor lines at the beginning of the days by pressing Shift+Right Mouse Click drag down the beginning of the days.  Create multiple cursor lines at the end of the days by pressing Shift+Right Mouse Click drag down the end of the days.  Another way to create multiple cursor lines at the end of the days is press Shift+Right Mouse Click drag down at the beginning of the days, then press End.  A third way to create multiple cursor lines is highlight all days, then press Ctrl+Shift+L, Right Cursor or End.  A fourth way to create multiple cursor lines is highlight all days, then press Ctrl+Shift+L, Left Cursor or Home.  A fifth way to create multiple cursor lines is hold Alt+Ctrl, press Down Cursor the number of lines, and press End.
+2.  Create multiple cursor lines at the beginning of the days by pressing Shift+Right Mouse Click drag down the beginning of the days.  Create multiple cursor lines at the end of the days by pressing Shift+Right Mouse Click drag down the end of the days.  Another way to create multiple cursor lines at the end of the days is press Shift+Right Mouse Click drag down at the beginning of the days, then press End.  A third way to create multiple cursor lines is highlight all days, then press Ctrl+Shift+L, Right Cursor or End.  A fourth way to create multiple cursor lines is highlight all days, then press Ctrl+Shift+L, Left Cursor or Home.  A fifth way to create multiple cursor lines is hold Alt+Ctrl, press Up Cursor or Down Cursor the number of lines, and press End.  Create multiple cursors in Linux is Alt+Shift instead of Alt+Ctrl.
 Monday
 Tuesday
 Wednesday
@@ -24,7 +24,7 @@ Bite the tree.
 
 3b.  Triple mouse click a paragraph or a line selects the entire paragraph or line.
 
-3c.  Pretend the sentences are in an HTML file.  Highlight these three sentences or press Ctrl+L then Ctrl+Shift+L.  Press Alt+Shift+W to wrap the three sentences in an HTML tag.
+3c.  Pretend the sentences are in an HTML file.  Highlight these three sentences or press Ctrl+L then Ctrl+Left Arrow.  Press Alt+Shift+W to wrap the three sentences in an HTML tag.
 We lovel the breathe air.
 Candy dandy.
 Bite the tree.
@@ -34,7 +34,7 @@ Solution:
 Candy dandy.
 Bite the tree.</p>
 
-3d.  Pretend the sentences are in an HTML file.  Highlight these three sentences then Ctrl+Shift+L.  Press Alt+Shift+W to wrap the three sentences in their own HTML tag.
+3d.  Pretend the sentences are in an HTML file.  Highlight these three sentences or press Ctrl+L then Ctrl+Shift+L.  Press Alt+Shift+W to wrap the three sentences in their own HTML tag.
 We lovel the breathe air.
 Candy dandy.
 Bite the tree.
@@ -58,7 +58,7 @@ Sunday
 2.  Duplicate the line below pressing Ctrl+Shift+D.  The duplication works when multiple lines are highlighted.
 Perfect practice makes perfect.
 
-3.  Delete the least like color pressing Ctrl+Shift+K.
+3.  Delete the least like color pressing Ctrl+Shift+K.  Press Ctrl+Shift+X is the shortcut for cut.
 Blue
 Green
 Red
@@ -70,7 +70,7 @@ Red
 			The last sentence in the paragraph to highlight.
 			I lied.  Here is the last paragraph to highlight.
 
-5.  Shrink the following paragraph pressing Ctrl+Shift+[ highlighting the entire paragraph.  Press Ctrl++Shift+] to unshrink.
+5.  Shrink the following paragraph.  Highlight the entire paragraph.  Press Ctrl+Shift+[.  Press Ctrl++Shift+] to unshrink.
 Here is a paragraph about good writing.
 Use proper English for the reader to understand.
 A third paragraph is here.
@@ -108,10 +108,13 @@ Yes is a good word sometimes.
 Insert line above.
 No is a bad word sometimes.
 
-10.  Press Ctrl+Shift+J to join the two sentences below into one.  Place cursor at the end of the first sentence.  Press Ctrl+Shift+J multiple times to join multiple sentences into one.
+10.  Press Ctrl+Shift+J to join the two sentences below into one.  Place cursor at the end of the first sentence.  Press Ctrl+Shift+J multiple times to join multiple sentences into one.  Highlight entire paragraph, press Ctrl+Shift+J once to join paragraph into once line.
 A fire extinguisher is a must anywhere indoors.
 I look beautiful wearing a green shirt.
 Follow the bouncing ball.
+
+Solution
+A fire extinguisher is a must anywhere indoors. I look beautiful wearing a green shirt. Follow the bouncing ball.
 
 Original
 A fire extinguisher is a must anywhere indoors.
@@ -142,7 +145,7 @@ The quick brown fox jumped over the lazy dog.
 
 #Sublime Text Package Manager (Tutorial #5)
 
-1.  Google search Sublime Text Package Manager named Package Control.  I found link https://packagecontrol.io/.  Click Installation upper right.  Follow instructions.  These are the procedures to install Package Manager.
+1.  Google search Sublime Text Package Manager named Package Control.  Link is https://packagecontrol.io/.  Click Installation upper right.  Follow instructions.  These are the procedures to install Package Manager.
 2.  Press Ctrl+Shift+P, then type install package, select Package Control: Install Package.
 3.  Browse and install packages.
 4.  Preferences-->Package ControL-->type remove-->Package Control; Remove Package-->select package using cursor	Remove packages or uninstall packages.
@@ -151,7 +154,7 @@ The quick brown fox jumped over the lazy dog.
 
 1a.  Explain by an example.  Open a blank .html file.  Type html, press tab, standard tags appeared.
 1b.  You may have to use the snippets from the menu bar Tools-->Snippets-->Snippet: HTML or Ctrl+Shift+P, type snippet, select Snippet: HTML.
-1c.  If you have Emmet installed from Sublime Text Emmet (Tutorial #7), then use the Emmet HTML template by typing ! and pressing tab Emmet HTML template.
+1c.  If you have Emmet installed from Sublime Text Emmet (Tutorial #7), then use the Emmet HTML template by typing ! and pressing tab to begin an HTML file with the Emmet HTML template.
 2.  View the snippets available in file and the file syntax.  Tools-->Snippets....
 
 #Sublime Text Emmet (Tutorial #7)
@@ -161,8 +164,6 @@ The quick brown fox jumped over the lazy dog.
 3.  Press Enter.  Emmet is installing.
 4.  You may close Sublime Text and reopen Sublime Text after installation is completed.
 5.  The procedure is the same for installing other packages.
-
-Press !, tab to begin an HTML file with the Emmet HTML template.
 
 #Sublime Text Create New Snippet (Tutorial #8)
 
@@ -198,9 +199,7 @@ Press !, tab to begin an HTML file with the Emmet HTML template.
 
 3.  Open three files.  Press Alt+Shift+3 to open three columns.  Drag the second file to the middle column.  Drag the third file to the right column.
 
-4a.  See the same file in two different columns.  Press Alt+Shift+2.  Click anywhere in initial file to be seen in second column.  File-->New View into File.  Drag second tab to the right column.
-
-4b.  Sublime Text 4.0 File-->Split View opens the same file in a new column.
+4.  See the same file in two different columns.  Press Alt+Shift+2.  Click anywhere in initial file to be seen in second column.  File-->New View into File.  Drag second tab to the right column.
 
 #Sublime Text Basics All the Best Features in One Video
 
@@ -243,9 +242,9 @@ pluto
 3b.  Press Ctrl+P.  Type # followed by a text to go to the text.  Press Enter.  Press the arrow keys to move around the file with the text; e.g, press Ctrl+P, type #html, press up and down arrows.  Press Esc to exit.
 3c.  Press Ctrl+P.  Type : followed by a line number to go to the line number.  Press Enter.  Another way is press Ctrl+G.
 3d.  Press Ctrl+P to view recent files.  You can peak at the files displayed on Ctrl+P GoTo Anything.  Press Enter to open the file.
-3e.  Press Ctrl+P to view recent files.  Type part of a file name followed by @ and a function name to view the file name's function. Press Enter to open the file at the location.
-3f.  Press Ctrl+P to view recent files.  Type part of a file name followed by # and a text to view the file name's text. Press Enter to open the file at the location.
-3g.  Press Ctrl+P to view recent files.  Type part of a file name followed by : and a line number to go to the file name's line number. Press Enter to open the file at the location.
+3e.  Press Ctrl+P to view recent files.  Type part of a file name followed by @ and a function name to view the file name's function.  Press Enter to open the file at the location.
+3f.  Press Ctrl+P to view recent files.  Type part of a file name followed by # and a text to view the file name's text.  Press Enter to open the file at the location.
+3g.  Press Ctrl+P to view recent files.  Type part of a file name followed by : and a line number to go to the file name's line number.  Press Enter to open the file at the location.
 
 4.  Find-->Find in Files or Ctrl+Shift+F.  Enter a word in Find field.  Also, highlight a word, press Ctrl+Shift+F, the Find field is populated with the highlighted word.  The Find Results tab is created with the search results from all files searched with number lines and file path.  Double click the file path opens the file.  Double click on the string opens the file and cursor is at the string line number.
 
@@ -262,32 +261,36 @@ connormonitor
 connormonitor
 connormonitor
 
-final result
+Solution
 handyman
 handyman
 connormonitor
 handyman
 handyman
 
-2.  Open two columns pressing Alt+Shift+2.  Open three colummns pressing Alt+Shift+3.  Go back to one column pressing Alt+Shift+1.
-
-3.  Delete the line pressing Ctrl+X or Ctrl+Shift+K.
-
-Delete the line say goodbye.
-
 Original
-Delete the line say goodbye.
+connormonitor
+connormonitor
+connormonitor
+connormonitor
+connormonitor
 
-4.  Highlight the contents inside the parenthesis, brackets, or braces. pressing Ctrl+Shift+M.  Press Ctrl+Shift+M again to highlight both its parenthesis, brackets, or braces.  Also, press Ctrl+M to go to the end of the parenthesis, brackets, or braces when the cursor is inside.  Press Ctrl+M, Ctrl+M to go to the beginning or go to the end.  Press Ctrl+Shift+M to select inside the paranthesis, brackets, or braces, then press left arrow to go to the beginning or the right arrow to go to the end.  Use Ctrl+Shift+.*period* for Emmet HTML tags.
+2.  Create two columns pressing Alt+Shift+2.  Open three colummns pressing Alt+Shift+3.  Go back to one column pressing Alt+Shift+1.
+
+3.  Highlight the contents inside the parenthesis, brackets, or braces. pressing Ctrl+Shift+M.  Press Ctrl+Shift+M again to highlight both its parenthesis, brackets, or braces.  Also, press Ctrl+M to go to the end of the parenthesis, brackets, or braces when the cursor is inside.  Press Ctrl+M, Ctrl+M to go to the beginning or go to the end.  Press Ctrl+Shift+M to select inside the paranthesis, brackets, or braces, then press left arrow to go to the beginning or the right arrow to go to the end.  Use Ctrl+Shift+.*period* for Emmet HTML tags.
 
 onewordmovies = ("Babe","Parasite","UP!","Aliens","Casablanca")
 onewordmovies = {"Babe","Parasite","UP!","Aliens","Casablanca"}
 onewordmovies = ["Babe","Parasite","UP!","Aliens","Casablanca"]
 onewordmoviesnested = (("Babe","Parasite"),(("UP!"),("Aliens"),("Casablanca")))
 
-Bonus 1.  Autocomplete.  Press Ctrl+Spacebar while the cursor is between h and r in the word three.  Opens drop down suggestion window or snippets.  Ctrl+Spacebar works when typing a partial word.  Type a partial word Casa, then press Ctrl+Spacebar to either complete the word Casablanca, or open drop down suggestion window or snippets if type a partial world Cas.  Cas
+Bonus 1.  Autocomplete.  Press Ctrl+Spacebar while the cursor is between h and r in the word three.  Opens drop down suggestion window or snippets.
 
 three
+
+Ctrl+Spacebar works when typing a partial word.  Type a partial word Casa, then press Ctrl+Spacebar to either complete the word Casablanca, or open drop down suggestion window or snippets if type a partial world Cas.  
+
+Type Casa to the right of the arrow, then press Ctrl+Spacebar -->
 
 Bonus 2.  No need to type the underscore in a word to use the autocomplete or the drop down suggestion window or snippets.
 
@@ -311,17 +314,8 @@ Bonus 2.  No need to type the underscore in a word to use the autocomplete or th
 2.  Press Ctrl+R to search for methods or functions.
 3.  Press Ctrl+K, Ctrl+V or Ctrl+K,V to open a popup window with the last 15 copies.  A personal tip is think of the letter V in Ctrl+V as paste.
 4.  Press Ctrl+Shift+A to select contents in an HTML element.
-5.  Press Ctrl+Alt+Up Arrow or Ctrl+Alt+Down Arrow to create additional cursor lines immediately above or below text.
 
-Place cursor between these words one two.
-Place cursor between these words one two.
-Place cursor between these words one two.  Place cursor between the word one and two.  Press Ctrl+Alt+Up Arrow or Ctrl+Alt+Down
-Place cursor between these words one two.
-Place cursor between these words one two.
-Place cursor between these words one two.
-Place cursor between these words one two.
-
-6.  Swap text.  Switch the first sentence and the fourth sentence positions.  The first sentence is the fourth sentence.  The fourth sentence is the first sentence.  Highlight the first sentence.  Highlight the fourth sentence.  Press Ctrl+T.  Sentences are swapped.
+5.  Swap text.  Switch the first sentence and the fourth sentence positions.  The first sentence is the fourth sentence.  The fourth sentence is the first sentence.  Highlight the first sentence.  Highlight the fourth sentence.  Press Ctrl+T.  Sentences are swapped.
 
 Fourth sentence is orange is an orange color and a fruit.
 Second sentence is peanut butter and jelly sandwich.
@@ -338,10 +332,10 @@ Fourth sentence is orange is an orange color and a fruit.
 Fifth sentence is yellow mellow tellow jell-o.
 Sixth sentence is six words long.
 
-7.  Press F9 to sort.
-8.  Press Alt+.*period* to close HTML tags.
-9.  Press Ctrl+Shift+Del or press Ctrl, K, K to delete from the cursor to the end of the line.
-10.  Press Ctrl+Shift+Backspace or press Ctrl, K, Backspace to delete from the cursor to the start of the line.
+6.  Press F9 to sort.
+7.  Press Alt+.*period* to close HTML tags.
+8.  Press Ctrl+Shift+Del or press Ctrl, K, K to delete from the cursor to the end of the line.
+9.  Press Ctrl+Shift+Backspace or press Ctrl, K, Backspace to delete from the cursor to the start of the line.
 
 Practice delete from the beginning of the cursor by placing the cursor anywhere on the sentence.
 Practice delete from the end of the cursor by placing the cursor anywhere on the sentence.
@@ -366,10 +360,10 @@ Highlight the sentence and press " to insert double quotes.
 #Select text between quotes
 
 1.  Install package Expand Selection to Quotes
-2.  Press ' to highlight between the quotes sentence below.
+2.  Press Ctrl+' to highlight between the quotes sentence below.  Press Ctrl+', ' or press Ctrl and single quote, then single quote to highlight between the quotes sentence and the quotes themselves.
 
 "Press Ctrl and single quote to highlight the sentence."
-"Press Ctrl and single quote twice to highlight the sentence and the double quotes."
+"Press Ctrl and single quote, single quote to highlight the sentence and the double quotes."
 
 Original
 "Press Ctrl and single quote to highlight the sentence."
@@ -392,11 +386,13 @@ Press Ctrl+Shift+Spacebar to select all text or most text depending on the file 
 1.  Highlight text or a string.
 2.  Press Shift+9 for parenthesis, [ for brackets, { for braces.
 
+Highlight these two sentences to enclose me inside parenthesis.  Then press the left parenthesis.
+
+Solution
+(Highlight the two sentences to enclose me inside parenthesis.  Then press the left parenthesis.)
+
+Original
 Highlight the two sentences to enclose me inside parenthesis.  Then press the left parenthesis.
-
-End result-->(Highlight the two sentences to enclose me inside parenthesis.  Then press the left parenthesis.)
-
-Original sentence-->Highlight the two sentences to enclose me inside parenthesis.  Then press the left parenthesis.
 
 #Dummy text
 Type lorem, press tab.
@@ -408,13 +404,13 @@ Type lorem, press tab.
 
 #Sublime Text 4.0 New Features My Highlights
 
-1.  Multi-select tabs opens in its own window.  Sublime Text is open with multiple tabs.  Single mouse click another tab opens the tab in another column.  Click the open tab closes the another column.
+1.  Press Ctrl and an open tab.  A new column appears with the tab file.  In other words, single mouse an open tab opens the tab in a new column.  Click any tab to close the tab column.
 
-2.  File-->New View into File is replaced with File-->Split View.
+2.  File-->New View into File is replaced with File-->Split View.  Split View opens the same file in a new column.
 
 3.  Python 3.8 API added.
 
-4.  Text drag and drop supported on Linux.  Side note:  text drag and drop has been supported on Windows.
+4.  Text drag and drop supported on Linux.  Text drag and drop has been supported on Windows.
 
 5.  Join lines Ctrl+J is replaced with Ctrl+Shift+J.
 
