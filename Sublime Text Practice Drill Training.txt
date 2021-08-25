@@ -77,7 +77,7 @@ A third paragraph is here.
 The last sentence in the paragraph to highlight.
 I lied.  Here is the last paragraph to highlight.
 
-6.  Reindent smart Edit-->Line-->Reindent or Alt,E,L,R.  Highlight the entire paragraph, dit-->Line-->Reindent or Alt,E,L,R to reindent.
+6.  Reindent smart Edit-->Line-->Reindent or Alt,E,L,R.  Highlight the entire paragraph, Edit-->Line-->Reindent or Alt,E,L,R to reindent.
 				Here is a paragraph about good writing.
 	Use proper English for the reader to understand.
 A third paragraph is here.
@@ -199,7 +199,7 @@ The quick brown fox jumped over the lazy dog.
 
 3.  Open three files.  Press Alt+Shift+3 to open three columns.  Drag the second file to the middle column.  Drag the third file to the right column.
 
-4.  See the same file in two different columns.  Press Alt+Shift+2.  Click anywhere in initial file to be seen in second column.  File-->New View into File.  Drag second tab to the right column.
+4.  [Outdated] See the same file in two columns.  Press Alt+Shift+2.  Click anywhere in initial file to be seen in second column.  File-->New View into File.  Drag second tab to the right column.  [Latest] File-->Split View opens same file in a new column.  Shortcut keys are Alt, F, E.
 
 #Sublime Text Basics All the Best Features in One Video
 
@@ -313,7 +313,7 @@ Bonus 2.  No need to type the underscore in a word to use the autocomplete or th
 1.  Press F11 for full screen.  Press Shift+F11 for distraction-free full screen.
 2.  Press Ctrl+R to search for methods or functions.
 3.  Press Ctrl+K, Ctrl+V or Ctrl+K,V to open a popup window with the last 15 copies.  A personal tip is think of the letter V in Ctrl+V as paste.
-4.  Press Ctrl+Shift+A to select contents in an HTML element.
+4.  Press Ctrl+Shift+A to select contents in a HTML element.
 
 5.  Swap text.  Switch the first sentence and the fourth sentence positions.  The first sentence is the fourth sentence.  The fourth sentence is the first sentence.  Highlight the first sentence.  Highlight the fourth sentence.  Press Ctrl+T.  Sentences are swapped.
 
@@ -406,7 +406,7 @@ Type lorem, press tab.
 
 1.  Press Ctrl and an open tab.  A new column appears with the tab file.  In other words, single mouse an open tab opens the tab in a new column.  Click any tab to close the tab column.
 
-2.  File-->New View into File is replaced with File-->Split View.  Split View opens the same file in a new column.
+2.  File-->New View into File is replaced with File-->Split View.  Split View opens the same file in a new column.  Shortcut keys are Alt, F, E.
 
 3.  Python 3.8 API added.
 
