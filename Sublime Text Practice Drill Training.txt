@@ -25,9 +25,9 @@ Bite the tree.
 3b.  Triple mouse click a paragraph or a line selects the entire paragraph or line.
 
 3c.  Pretend the sentences are in an HTML file.  Highlight these three sentences or press Ctrl+L then Ctrl+Left Arrow.  Press Alt+Shift+W to wrap the three sentences in an HTML tag.
-We lovel the breathe air.
+<p>We lovel the breathe air.
 Candy dandy.
-Bite the tree.
+Bite the tree.</p>
 
 Solution:
 <p>We lovel the breathe air.
@@ -35,9 +35,9 @@ Candy dandy.
 Bite the tree.</p>
 
 3d.  Pretend the sentences are in an HTML file.  Highlight these three sentences or press Ctrl+L then Ctrl+Shift+L.  Press Alt+Shift+W to wrap the three sentences in their own HTML tag.
-We lovel the breathe air.
-Candy dandy.
-Bite the tree.
+<p>We lovel the breathe air.</p>
+<p>Candy dandy.</p>
+<p>Bite the tree.</p>
 
 Solution:
 <p>We lovel the breathe air.</p>
@@ -48,27 +48,28 @@ Solution:
 
 1.  Reorder the days of the week from Mon to Sun pressing Ctrl+Shift+Up Arrow or Ctrl+Shift+Down Arrow.
 Monday
-Saturday
 Tuesday
+Wednesday
 Thursday
 Friday
-Wednesday
+Saturday
 Sunday
 
 2.  Duplicate the line below pressing Ctrl+Shift+D.  The duplication works when multiple lines are highlighted.
 Perfect practice makes perfect.
+Perfect practice makes perfect.
 
-3.  Delete the least like color pressing Ctrl+Shift+K.  Press Ctrl+Shift+X is the shortcut for cut.
+3.  Delete the least like color pressing Ctrl+Shift+K.  Press Ctrl+X is the shortcut for cut.
 Blue
 Green
 Red
 
 4.  Correct the indent for the following paragraph pressing Ctrl+] or Ctrl+Right Bracket to indent anywhere in each sentence.  Press Ctrl+[ or Ctrl+Left Bracket to unindent anywhere in each sentence.
-				Here is a paragraph about good writing.
-			Use proper English for the reader to understand.
-			A third paragraph is here.
-			The last sentence in the paragraph to highlight.
-			I lied.  Here is the last paragraph to highlight.
+					Here is a paragraph about good writing.
+				Use proper English for the reader to understand.
+				A third paragraph is here.
+				The last sentence in the paragraph to highlight.
+				I lied.  Here is the last paragraph to highlight.
 
 5.  Shrink the following paragraph.  Highlight the entire paragraph.  Press Ctrl+Shift+[.  Press Ctrl++Shift+] to unshrink.
 Here is a paragraph about good writing.
@@ -83,6 +84,8 @@ I lied.  Here is the last paragraph to highlight.
 A third paragraph is here.
 	The last sentence in the paragraph to highlight.
 		I lied.  Here is the last paragraph to highlight.
+
+
 
 Solution:
 Here is a paragraph about good writing.
@@ -334,8 +337,8 @@ Sixth sentence is six words long.
 
 6.  Press F9 to sort.
 7.  Press Alt+.*period* to close HTML tags.
-8.  Press Ctrl+Shift+Del or press Ctrl, K, K to delete from the cursor to the end of the line.
-9.  Press Ctrl+Shift+Backspace or press Ctrl, K, Backspace to delete from the cursor to the start of the line.
+8.  Press Ctrl+Shift+Del or hold Ctrl, press K, press K to delete from the cursor to the end of the line.
+9.  Press Ctrl+Shift+Backspace or hold Ctrl, press K, press Backspace to delete from the cursor to the start of the line.
 
 Practice delete from the beginning of the cursor by placing the cursor anywhere on the sentence.
 Practice delete from the end of the cursor by placing the cursor anywhere on the sentence.
@@ -404,7 +407,7 @@ Type lorem, press tab.
 
 #Sublime Text 4.0 New Features My Highlights
 
-1.  Press Ctrl and an open tab.  A new column appears with the tab file.  In other words, single mouse an open tab opens the tab in a new column.  Click any tab to close the tab column.
+1.  Hold Ctrl and click on another tab.  A new column appears with the tab file opened.  In other words, hold Ctrl, single mouse an open tab, a new column is open with the file in a new column.  Click a tab to close the other column and its file.
 
 2.  File-->New View into File is replaced with File-->Split View.  Split View opens the same file in a new column.  Shortcut keys are Alt, F, E.
 
