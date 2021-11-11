@@ -15,7 +15,7 @@ Friday
 Saturday
 Sunday
 
-3a.  Highlight a sentence.  Press Ctrl+L to select sentence with paragraph break.  Press Ctrl+L, Ctrl+Shift+L to select sentence without paragraph break and have cursor at the end of the sentences.   Press Ctrl+L multiple times to select multiple sentences.  Press Ctrl+Shift+L last to ignore the last paragraph break and have multiple cursors at the end of the sentences.  For HTML, press Alt+Shift+W to wrap selection(s) with an HTML tag.  Also, highlight sentences with the mouse.  Press Ctrl+Shift+L to have multiple cursors at the end of the sentences.  Press Home for cursors at the beginning of the sentences.
+3a.  Highlight a sentence.  Press Ctrl+L to select sentence with paragraph break.  Press Ctrl+L, Ctrl+Shift+L to select sentence without paragraph break and have cursor at the end of the sentences.   Press Ctrl+L, then hold Ctrl and press L multiple times to select multiple sentences.  Finally, holding Ctrl, press Shift+L last to ignore the last paragraph break and have multiple cursors at the end of the sentences.  For HTML, press Alt+Shift+W to wrap selection(s) with an HTML tag.  Also, highlight sentences with the mouse.  Then press Ctrl+Shift+L to have multiple cursors at the end of the sentences.  Press Home for cursors at the beginning of the sentences.
 Today is a day.
 Blue is the phone.
 We lovel the breathe air.
@@ -25,9 +25,9 @@ Bite the tree.
 3b.  Triple mouse click a paragraph or a line selects the entire paragraph or line.
 
 3c.  Pretend the sentences are in an HTML file.  Highlight these three sentences or press Ctrl+L then Ctrl+Left Arrow.  Press Alt+Shift+W to wrap the three sentences in an HTML tag.
-<p>We lovel the breathe air.
+We lovel the breathe air.
 Candy dandy.
-Bite the tree.</p>
+Bite the tree.
 
 Solution:
 <p>We lovel the breathe air.
@@ -35,9 +35,9 @@ Candy dandy.
 Bite the tree.</p>
 
 3d.  Pretend the sentences are in an HTML file.  Highlight these three sentences or press Ctrl+L then Ctrl+Shift+L.  Press Alt+Shift+W to wrap the three sentences in their own HTML tag.
-<p>We lovel the breathe air.</p>
-<p>Candy dandy.</p>
-<p>Bite the tree.</p>
+We lovel the breathe air.
+Candy dandy.
+Bite the tree.
 
 Solution:
 <p>We lovel the breathe air.</p>
@@ -48,15 +48,14 @@ Solution:
 
 1.  Reorder the days of the week from Mon to Sun pressing Ctrl+Shift+Up Arrow or Ctrl+Shift+Down Arrow.
 Monday
-Tuesday
-Wednesday
-Thursday
-Friday
 Saturday
+Wednesday
+Tuesday
 Sunday
+Friday
+Thursday
 
 2.  Duplicate the line below pressing Ctrl+Shift+D.  The duplication works when multiple lines are highlighted.
-Perfect practice makes perfect.
 Perfect practice makes perfect.
 
 3.  Delete the least like color pressing Ctrl+Shift+K.  Press Ctrl+X is the shortcut for cut.
@@ -65,11 +64,11 @@ Green
 Red
 
 4.  Correct the indent for the following paragraph pressing Ctrl+] or Ctrl+Right Bracket to indent anywhere in each sentence.  Press Ctrl+[ or Ctrl+Left Bracket to unindent anywhere in each sentence.
-					Here is a paragraph about good writing.
-				Use proper English for the reader to understand.
-				A third paragraph is here.
-				The last sentence in the paragraph to highlight.
-				I lied.  Here is the last paragraph to highlight.
+				Here is a paragraph about good writing.
+	Use proper English for the reader to understand.
+A third paragraph is here.
+	The last sentence in the paragraph to highlight.
+		I lied.  Here is the last paragraph to highlight.  Smart indentation may not work in text files.
 
 5.  Shrink the following paragraph.  Highlight the entire paragraph.  Press Ctrl+Shift+[.  Press Ctrl++Shift+] to unshrink.
 Here is a paragraph about good writing.
@@ -84,8 +83,6 @@ I lied.  Here is the last paragraph to highlight.
 A third paragraph is here.
 	The last sentence in the paragraph to highlight.
 		I lied.  Here is the last paragraph to highlight.
-
-
 
 Solution:
 Here is a paragraph about good writing.
@@ -198,9 +195,9 @@ The quick brown fox jumped over the lazy dog.
 
 1.  Change custom settings go to Preferences-->Settings.
 
-2.  Make custom settings at Preferences.sublime-settings -- User.  There is no exercise to create a custom setting.
+2.  Make custom settings at Preferences-->Settings, Preferences.sublime-settings -- User tab.  There is no exercise to create a custom setting.
 
-3.  Open three files.  Press Alt+Shift+3 to open three columns.  Drag the second file to the middle column.  Drag the third file to the right column.
+3.  Open three files.  Press Alt+Shift+3 to open three columns.  Drag the second file or second tab to the middle column.  Drag the third file or third tab to the right column.
 
 4.  [Outdated] See the same file in two columns.  Press Alt+Shift+2.  Click anywhere in initial file to be seen in second column.  File-->New View into File.  Drag second tab to the right column.  [Latest] File-->Split View opens same file in a new column.  Shortcut keys are Alt, F, E.
 
@@ -293,7 +290,7 @@ three
 
 Ctrl+Spacebar works when typing a partial word.  Type a partial word Casa, then press Ctrl+Spacebar to either complete the word Casablanca, or open drop down suggestion window or snippets if type a partial world Cas.  
 
-Type Casa to the right of the arrow, then press Ctrl+Spacebar -->
+Type Casa to the right of the arrow, then press Ctrl+Spacebar -->Casa
 
 Bonus 2.  No need to type the underscore in a word to use the autocomplete or the drop down suggestion window or snippets.
 
