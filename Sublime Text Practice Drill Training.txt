@@ -6,7 +6,7 @@ YouTube Channel Sources:  LevelUpTuts, tutoriaLinux, Learn Coding Tutorials, Cor
 1.  Hold Ctrl single mouse click before the letter c for all the words cat to create multiple cursors.  Also, press Ctrl+D,D multiple times to select cat multiple times.  Bonus press Alt+F3 to select all words cat.  Bonus press Ctrl+F3 to find and select the next cat word.
 I once had a cat.  The cat was fast.  He was much faster than the average cat.
 
-2.  Create multiple cursor lines at the beginning of the days by pressing Shift+Right Mouse Click drag down the beginning of the days.  Create multiple cursor lines at the end of the days by pressing Shift+Right Mouse Click drag down the end of the days.  Another way to create multiple cursor lines at the end of the days is press Shift+Right Mouse Click drag down at the beginning of the days, then press End.  A third way to create multiple cursor lines is highlight all days, then press Ctrl+Shift+L, Right Cursor or End.  A fourth way to create multiple cursor lines is highlight all days, then press Ctrl+Shift+L, Left Cursor or Home.  A fifth way to create multiple cursor lines is hold Alt+Ctrl, press Up Cursor or Down Cursor the number of lines, and press End.  Create multiple cursors in Linux is Alt+Shift instead of Alt+Ctrl.
+2a.  Create multiple cursor lines at the beginning of the days by pressing Shift+Right Mouse Click drag down the beginning of the days.  Create multiple cursor lines at the end of the days by pressing Shift+Right Mouse Click drag down the end of the days.  Another way to create multiple cursor lines at the end of the days is press Shift+Right Mouse Click drag down at the beginning of the days, then press End.  A third way to create multiple cursor lines is highlight all days, then press Ctrl+Shift+L, Right Cursor or End.  A fourth way to create multiple cursor lines is highlight all days, then press Ctrl+Shift+L, Left Cursor or Home.  A fifth way to create multiple cursor lines is hold Alt+Ctrl, press Up Cursor or Down Cursor the number of lines, and press End.  Create multiple cursors in Linux is Alt+Shift instead of Alt+Ctrl.
 Monday
 Tuesday
 Wednesday
@@ -14,6 +14,14 @@ Thursday
 Friday
 Saturday
 Sunday
+
+2b.  Windows press Alt+Shift, left mouse click hold, and drag cursor to create a square selection with multiple cursors.  Practice below.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 3a.  Highlight a sentence.  Press Ctrl+L to select sentence with paragraph break.  Press Ctrl+L, Ctrl+Shift+L to select sentence without paragraph break and have cursor at the end of the sentences.   Press Ctrl+L, then hold Ctrl and press L multiple times to select multiple sentences.  Finally, holding Ctrl, press Shift+L last to ignore the last paragraph break and have multiple cursors at the end of the sentences.  For HTML, press Alt+Shift+W to wrap selection(s) with an HTML tag.  Also, highlight sentences with the mouse.  Then press Ctrl+Shift+L to have multiple cursors at the end of the sentences.  Press Home for cursors at the beginning of the sentences.
 Today is a day.
@@ -277,7 +285,7 @@ connormonitor
 
 2.  Create two columns pressing Alt+Shift+2.  Open three colummns pressing Alt+Shift+3.  Go back to one column pressing Alt+Shift+1.
 
-3.  Highlight the contents inside the parenthesis, brackets, or braces. pressing Ctrl+Shift+M.  Press Ctrl+Shift+M again to highlight both its parenthesis, brackets, or braces.  Also, press Ctrl+M to go to the end of the parenthesis, brackets, or braces when the cursor is inside.  Press Ctrl+M, Ctrl+M to go to the beginning or go to the end.  Press Ctrl+Shift+M to select inside the paranthesis, brackets, or braces, then press left arrow to go to the beginning or the right arrow to go to the end.  Use Ctrl+Shift+.*period* for Emmet HTML tags.
+3.  Highlight the contents inside the parenthesis, brackets, or braces. pressing Ctrl+Shift+M.  Press Ctrl+Shift+M again to highlight both its parenthesis, brackets, or braces.  Also, press Ctrl+M to go to the end of the parenthesis, brackets, or braces when the cursor is inside.  Press Ctrl+M, Ctrl+M to go to the beginning or go to the end.  Ctrl+M is jump to matching parenthesis, bracket, or brace.  Press Ctrl+Shift+M to select inside the paranthesis, brackets, or braces, then press left arrow to go to the beginning or the right arrow to go to the end.  Use Ctrl+Shift+.*period* for Emmet HTML tags.
 
 onewordmovies = ("Babe","Parasite","UP!","Aliens","Casablanca")
 onewordmovies = {"Babe","Parasite","UP!","Aliens","Casablanca"}
@@ -395,7 +403,8 @@ Original
 Highlight the two sentences to enclose me inside parenthesis.  Then press the left parenthesis.
 
 #Dummy text
-Type lorem, press tab.
+Type lorem, press tab, press enter.
+Install Package Control Loremipsum https://packagecontrol.io/packages/LoremIpsum.  Press Alt+Shift+L to add Lorem Ipsum text.  Add more Lorem Ipsum text from the menu Edit-->Text-->Lorem Ipsum...-->select how much Lorem Ipsum text to add
 
 #Goto modifications
 
