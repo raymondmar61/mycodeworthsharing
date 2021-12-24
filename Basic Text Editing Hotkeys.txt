@@ -12,7 +12,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 Veniam nulla eu enim laborum labore commodo esse voluptate velit mollit cupidatat irure est veniam anim dolor proident. Do incididunt anim ullamco do nostrud dolor dolore quis proident incididunt. Voluptate ea sint duis dolore nisi enim deserunt sint nisi fugiat consequat est minim laboris fugiat occaecat consectetur. Dolore nisi ad mollit pariatur cillum ex veniam dolor occaecat ea adipisicing pariatur dolor non. Sed culpa ea elit enim velit excepteur ex laboris et enim aliquip nostrud elit cupidatat. Anim ut commodo non sint dolore veniam magna qui. Lorem ipsum dolore veniam irure amet in ad dolore duis aliquip eu voluptate aliquip laborum quis quis id. Anim ad dolore dolore magna nulla adipisicing dolor nostrud eu do ullamco quis cillum consequat. Lorem ipsum consequat dolor qui officia sit ut sunt in tempor nulla nostrud. Excepteur et et sint ut proident ut ullamco ex. Elit reprehenderit elit excepteur occaecat deserunt voluptate occaecat ut minim. Lorem ipsum incididunt sunt occaecat est sint quis consequat voluptate nulla magna velit aute cillum in minim velit. Duis ut consequat amet in adipisicing tempor anim dolore sit nulla sed. Dolore ea nostrud ut dolore fugiat mollit labore aliqua in irure voluptate. Culpa in fugiat incididunt aute ad anim ullamco mollit culpa enim nostrud in labore magna consectetur excepteur. Excepteur dolore duis eu non proident labore deserunt officia adipisicing mollit laborum duis minim. Ea et aute mollit sed anim mollit nostrud dolor cupidatat nulla ut dolore. Nostrud aliquip sunt ad est culpa culpa in ut do commodo pariatur dolore fugiat sint do esse esse veniam. Ullamco minim ut consequat tempor duis excepteur velit commodo laborum ut sit eiusmod proident. Eu in occaecat nulla esse mollit amet pariatur in exercitation occaecat in consectetur irure velit in. Qui cupidatat eiusmod dolore dolor eiusmod dolore enim dolore mollit nostrud qui ut ad. Ad sed ex dolor amet sint voluptate eiusmod do do veniam anim id nulla nulla ad occaecat. Culpa voluptate ex dolor veniam est dolore reprehenderit culpa velit. Lorem ipsum velit aliquip ex nulla tempor duis magna magna velit. In aliqua in incididunt ut ex quis sint et anim ea voluptate labore. Quis laborum duis exercitation adipisicing eiusmod qui qui mollit reprehenderit occaecat excepteur.
 
 
-HOLD SHIFT AND PRESS DOWN TO SELECT MULTIPLE LINES.  UNHOLD SHIFT AND PRESS UP TO GO BACK UP BEFORE YOU SELECTED MULTIPLE LINES.
+HOLD SHIFT AND PRESS DOWN TO SELECT MULTIPLE LINES.  UNHOLD SHIFT AND PRESS LEFT TO GO BACK UP BEFORE YOU SELECTED MULTIPLE LINES.
 Dolor sint non laborum dolor id adipisicing dolor velit culpa sit sint pariatur voluptate dolore culpa aliqua anim tempor qui ea mollit ut cupidatat anim adipisicing est.
 Dolor adipisicing cillum excepteur in ex eu quis tempor commodo est ut excepteur ut. Deserunt voluptate quis minim do proident est laborum in culpa anim. In cillum proident nisi fugiat aliqua in culpa sunt dolore esse aliqua pariatur nostrud dolore et esse. Quis in nisi et proident ad proident proident mollit tempor dolore pariatur amet minim. Eu enim do quis nostrud elit commodo ut dolor dolor excepteur. Lorem ipsum tempor sunt veniam excepteur commodo in amet ex magna consequat mollit aliquip magna. Lorem ipsum dolor ad est elit quis commodo commodo in ut et duis do elit dolor.
 Do et qui tempor officia ut commodo occaecat exercitation non aliquip irure in mollit aliqua adipisicing laboris magna.
@@ -44,6 +44,13 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 WINDOWS PRESS ALT+SHIFT, LEFT MOUSE CLICK HOLD, AND DRAG CURSOR TO CREATE A SQUARE SELECTION WITH MULTIPLE CURSORS.  PRACTICE BELOW.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
