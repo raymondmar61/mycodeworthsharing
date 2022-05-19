@@ -1,0 +1,544 @@
+Practice Sublime Text Exercises which is Complete The Exercises To Practice Sublime Text Version 2.0
+YouTube Channel Sources:  LevelUpTuts, tutoriaLinux, Learn Coding Tutorials, Corey Schafer, Tech With Tim, Computer Stuff They Didn't Teach You
+
+CATEGORY:  FILE
+
+01 View file in two columns.  Open a second column to view same file.
+Press Alt,F,E or File-->Split View
+
+02 Open file from Windows Explorer
+Drag a file to Sublime Text to open a file.
+
+CATEGORY:  EDIT
+
+01a Cut, copy, and paste
+Press Ctrl+X to cut the least like color with copying and pasting somewhere else.
+
+Blue color sentence.
+Green color sentence.
+Red color sentence.
+
+01b Cut, copy, and paste
+Press Ctrl+Shift+K to delete the least like color without copying and pasting somewhere else.
+
+Blue color sentence.
+Green color sentence.
+Red color sentence.
+
+01c Cut, copy, and paste
+Press Ctrl+Shift+D to duplicate the sentence below.
+
+Perfect practice makes perfect.
+
+01d Cut, copy and paste
+Select daffy and tweety under Looney Tunes.  Press Ctrl+C to copy.  Select donald duck and goofy.  Press Ctrl+V to paste.  The number of copies must equal the number of pastes.
+
+Looney Tunes
+bugsbunny
+daffy
+sylvester
+tweety
+
+Disney
+mickeymouse
+donald duck
+goofy
+pluto
+
+Disney final result
+mickeymouse
+daffy
+tweety
+pluto
+
+Original Looney Tunes
+bugsbunny
+daffy
+sylvester
+tweety
+
+Original Disney
+mickeymouse
+donald duck
+goofy
+pluto
+
+02 Swap line
+Press Ctrl+Shift+Up or Ctrl+Shift+Down to rearrange the days from Monday to Sunday.
+
+Monday
+Saturday
+Wednesday
+Tuesday
+Sunday
+Friday
+Thursday
+
+Original
+Monday
+Saturday
+Wednesday
+Tuesday
+Sunday
+Friday
+Thursday
+
+03 Transpose
+Press Ctrl+T to transfer, swap, or switch the first sentence and the fourth sentence positions.  The first sentence is the fourth sentence.  The fourth sentence is the first sentence.  Select the first sentence beginning with Fourth sentence.  Select the fourth sentence beginning with First sentence.  Press Ctrl+T.  Sentences are swapped.
+
+Fourth sentence is orange is an orange color and a fruit.
+Second sentence is peanut butter and jelly sandwich.
+Third sentence is the Chicago Bulls won six NBA titles in the 1990s.
+First sentence is summer days are hot days.
+Fifth sentence is yellow mellow tellow jell-o.
+Sixth sentence is six words long.
+
+Final result
+First sentence is summer days are hot days.
+Second sentence is peanut butter and jelly sandwich.
+Third sentence is the Chicago Bulls won six NBA titles in the 1990s.
+Fourth sentence is orange is an orange color and a fruit.
+Fifth sentence is yellow mellow tellow jell-o.
+Sixth sentence is six words long.
+
+Original
+Fourth sentence is orange is an orange color and a fruit.
+Second sentence is peanut butter and jelly sandwich.
+Third sentence is the Chicago Bulls won six NBA titles in the 1990s.
+First sentence is summer days are hot days.
+Fifth sentence is yellow mellow tellow jell-o.
+Sixth sentence is six words long.
+
+04a Insert line below
+Press Ctrl+Enter at the beginning of the sentence New line below to insert a new line below.  In other words, press Ctrl+Enter to move cursor below one line.
+
+Yes is a good word sometimes.
+New line below.
+No is a bad word sometimes.
+
+04b Insert line above
+Press Ctrl+Shift+Enter at the beginning of the sentence New line above to insert a new line above.  In other words, press Ctrl+Shift+Enter to move everything below one line.
+
+Yes is a good word sometimes.
+New line above.
+No is a bad word sometimes.
+
+05a Delete text left of cursor
+Press Ctrl+Shift+Backspace or hold Ctrl, K, Backspace to delete text on the left side of the cursor.
+
+Practice delete from the left of the cursor by placing the cursor anywhere on the sentence Ctrl+Shift+Backspace or hold Ctrl, K, Backspace.
+
+Original
+Practice delete from the left of the cursor by placing the cursor anywhere on the sentence Ctrl+Shift+Backspace or hold Ctrl, K, Backspace.
+
+05b Delete text right of cursor
+Press Ctrl+Shift+Del or hold Ctrl, K, K to delete text on the right side of the cursor.
+
+Practice delete from the right of the cursor by placing the cursor anywhere on the sentence Ctrl+Shift+Del or hold Ctrl, K, K.
+
+Original
+Practice delete from the right of the cursor by placing the cursor anywhere on the sentence Ctrl+Shift+Del or hold Ctrl, K, K.
+
+06a Indent 
+Select any or all sentences below.  Press Ctrl+] to indent.
+
+Here is a paragraph about good writing.
+Use proper English for the reader to understand.
+A third paragraph is here.
+The last sentence in the paragraph to select.
+I lied.  Here is the last paragraph to select.  Smart indentation may not work in text files.
+
+06b Indent
+Select any or all sentences below.  Press Ctrl+[ to unindent.  Press Ctrl+[ multiple times to unindent.
+                
+                Here is a paragraph about good writing.
+    Use proper English for the reader to understand.
+A third paragraph is here.
+    The last sentence in the paragraph to select.
+        I lied.  Here is the last paragraph to select.  Smart indentation may not work in text files.
+
+Original                
+                Here is a paragraph about good writing.
+    Use proper English for the reader to understand.
+A third paragraph is here.
+    The last sentence in the paragraph to select.
+        I lied.  Here is the last paragraph to select.  Smart indentation may not work in text files.
+
+06c Indent
+Select the lines below.  Press Alt,E,L,R or Edit-->Line-->Reindent to reindent.
+                
+                Here is a paragraph about good writing.
+    Use proper English for the reader to understand.
+A third paragraph is here.
+    The last sentence in the paragraph to select.
+        I lied.  Here is the last paragraph to select.
+
+06d Indent
+Press Ctrl+Shift+V to smart paste and smart indent.  Copy the five lines below to practice smart paste and smart indent.  Smart indentation may not work in text files.
+
+                Here is a paragraph about good writing.
+    Use proper English for the reader to understand.
+A third paragraph is here.
+    The last sentence in the paragraph to select.
+        I lied.  Here is the last paragraph to select.  Smart indentation may not work in text files.
+
+Practice below paste below the sentence.
+
+
+
+
+
+
+Original
+                Here is a paragraph about good writing.
+    Use proper English for the reader to understand.
+A third paragraph is here.
+    The last sentence in the paragraph to select.
+        I lied.  Here is the last paragraph to select.  Smart indentation may not work in text files.
+
+06e Indent
+Select the lines below.  Press Ctrl+Shift+[ to shrink a line or lines.  Press Ctrl+Shift+] to unshrink a line or lines.
+
+Here is a paragraph about good writing.
+Use proper English for the reader to understand.
+A third paragraph is here.
+The last sentence in the paragraph to select.
+I lied.  Here is the last paragraph to select.
+
+07 Autocomplete or intellisense
+Press Ctrl+Spacebar to open the intellisense pop up window.  There is no need to type the underscores in a word to use autocomplete or intellisense.  Place the cursor between the letter h and letter r in the word three.  Press Ctrl+Spacebar.
+
+The word is three.
+
+Ctrl+Spacebar works when typing a partial word.  Type a partial word Casa.  Press Ctrl+Spacebar to either complete the word Casablanca or open the intellisense pop up window.
+
+Type Casa to the right of the arrow, then press Ctrl+Spacebar -->
+
+08 Combine text
+Select the three sentences below.  Press Ctrl+Shift+J multiple times to join multiple sentences into one sentence.
+
+A fire extinguisher is a must anywhere indoors.
+I look beautiful wearing a green shirt.
+Follow the bouncing ball.
+
+Solution
+A fire extinguisher is a must anywhere indoors. I look beautiful wearing a green shirt. Follow the bouncing ball.
+
+Original
+A fire extinguisher is a must anywhere indoors.
+I look beautiful wearing a green shirt.
+Follow the bouncing ball.
+
+09 Comments
+Press Ctrl+/ to comment a string.
+Press Ctrl+Shift+/ to block comment strings.
+
+10 Last 15 copies and cuts
+Press Ctrl+K, V or press Ctrl+K, Ctrl+V for a popup window displaying  the last 15 copies and cuts.
+
+11 Recent edits
+Right mouse click select Show Unsaved Changes to see recent edits.  Or press Shift+F10, select Show Unsaved Changes.
+
+12 Sort
+Press F9 to sort.
+Press Ctrl+F9 to sort case sensitive.
+
+13 Insert dummy text
+The package control Loremipsum must be installed.  https://packagecontrol.io/packages/LoremIpsum.  Type lorem, press tab or press enter.  Also, press Alt+Shift+L to insert Lorem Ipsum sentences.  Add more Lorem Ipsum sentences from the menu Edit-->Text-->Lorem Ipsum...-->select how much Lorem Ipsum text to add.
+
+Type lorem here, then press tab-->lorem
+
+Press Alt+Shift+L here multiple times-->
+
+14 Select text or select string
+Press Ctrl+Shift+Spacebar to select all text or most text depending on the file type.
+
+CATEGORY:  SELECTION
+
+01a Cursor
+Hold Ctrl single mouse click before the letter c for all the words cat to create multiple cursors.
+
+I once had a cat.  The cat was fast.  He was much faster than the average cat.
+
+Press Ctrl+D on cat to select a cat word.  Press Ctrl+D, D multiple times on the word cat to select cat multiple times.
+
+I once had a cat.  The cat was fast.  He was much faster than the average cat.
+
+Press Alt+F3 to select all the words cat.
+
+I once had a cat.  The cat was fast.  He was much faster than the average cat.
+
+Press Ctrl+F3 to find and select the next cat word.
+
+I once had a cat.  The cat was fast.  He was much faster than the average cat.
+
+01b Cursor
+Hold Shift+Right Mouse Click drag up or down to create multiple cursor lines.
+Hold Shift+Right Mouse Click drag up or down to create multiple cursor lines, press End to move cursors to the end of the line.
+Hold Shift+Right Mouse Click drag up or down to create multiple cursor lines, press Home to move cursors to the beginning of the line.
+Hold Alt+Ctrl, press Up or Down to create multiple cursor lines.  Press End to move cursors to the end of the line.  Press Home to move cursors to the beginning of the line.  Linux is Alt+Shift instead of Alt+Ctrl.
+
+Monday is a day.
+Tuesday is a day.
+Wednesday is a day.
+Thursday is a day.
+Friday is a day.
+Saturday is a day.
+Sunday is a day.
+
+02a Selection
+Press Ctrl+D to select an entire word.
+Choose a favorite word in the sentence by pressing Ctrl+D apple, pie, blue, ocean, number, one, basketball, napkin, or car.
+
+02b Selection
+Press Ctrl+D, Ctrl+K to unselect multiple selections.  Practice Ctrl+D, Ctrl+K to skip the third selection by pressing Ctrl+D, Ctrl+D, Ctrl+D, Ctrl+K, Ctrl+D, Ctrl+D.  Hold Ctrl while pressing D and K is valid.  Type handyman while the first, second, fourth, and fifth connormonitor is selected to replace connormonitor with handyman.
+
+connormonitor
+connormonitor
+connormonitor
+connormonitor
+connormonitor
+
+Solution
+handyman
+handyman
+connormonitor
+handyman
+handyman
+
+Original
+connormonitor
+connormonitor
+connormonitor
+connormonitor
+connormonitor
+
+02c Selection
+Triple mouse click a line or a paragraph to select the line or the paragraph.
+Single click the line number to select the line or the paragraph.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+02d Selection
+Press Ctrl+L to select an entire line.  Press Ctrl+L or press Ctrl+L, L multiple times to select multiple lines.
+Press Ctrl+Shift+L after selecting a line or multiple lines for multiple cursors at the end of the line or lines and remove the last carriage return.
+Press Ctrl+Shift+L, Home after selecting a line or multiple lines for multiple cursors at the beginning of the line or lines and remove the last carriage return.
+
+Monday is a day.
+Tuesday is a day.
+Wednesday is a day.
+Thursday is a day.
+Friday is a day.
+Saturday is a day.
+Sunday is a day.
+
+02e Selection
+Press Alt+Shift, left mouse click hold, and drag cursor to create a square selection with multiple cursors.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+03a Parenthesis, brackets, and braces
+Press Ctrl+M to go to the right side without selecting the contents.  Press Ctrl+M a second time to go to the left side without selecting the contents.  Ctrl+M is used to jump to matching parenthesis, bracket, or brace.
+Press Ctrl+Shift+M to select the contents inside parenthesis, brackets, and braces.  Press Ctrl+Shift+M a second time to select its parenthesis, brackets, and braces.  Press Left to go to the left side.
+practiceononewordmovies = ("Babe","Parasite","UP!","Aliens","Casablanca")
+practiceononewordmovies = {"Babe","Parasite","UP!","Aliens","Casablanca"}
+practiceononewordmovies = ["Babe","Parasite","UP!","Aliens","Casablanca"]
+practiceononewordmoviesnested = (("Babe","Parasite"),(("UP!"),("Aliens"),("Casablanca")))
+
+03b Parenthesis, brackets, and braces
+Select text.  Press Shift+9 to insert parenthesis, [ to insert brackets, or { to insert braces.
+
+Select the sentence to insert parenthesis, brackets, or braces by pressing Shift+9, [, or {.
+
+Original
+Select the sentence to insert parenthesis, brackets, or braces by pressing Shift+9, [, or {.
+
+04a Quotes
+Select a sentence.  Press ' to insert single quotes between the sentence.  Press Shift+' which is double quotes to insert double quotes between the sentence.
+
+Select sentence to insert single quotes between me.
+Select sentence to insert double quotes between me.
+
+Original
+Select sentence to insert single quotes between me.
+Select sentence to insert double quotes between me.
+
+04b Quotes
+The package control Expand Selection to Quotes must be installed to select text between quotes.
+Press Ctrl+' to select text between the quotes.  Press Ctrl+', ' or press Ctrl and single quote, single quote to select text and its quotes.
+
+'Press Ctrl and single quote.  Single quote sentence select the text within the single quotes.  Works for double quotes, too.'
+"Press Ctrl and single quote and single quote.  Double quotes sentence select the text and its double quotes.  Works for single quotes, too."
+
+Original
+'Press Ctrl and single quote.  Single quote sentence select the text within the single quotes.  Works for double quotes, too.'
+"Press Ctrl and single quote and single quote.  Double quotes sentence select the text and its double quotes.  Works for single quotes, too."
+
+CATEGORY:  FIND
+
+01 Advanced find
+Press Ctrl+Shift+F or Find-->Find in Files to search in a file.  Search results appear in another tab.  Double click on the search word either opens the file or zooms the opened file to the search word.  Double click on the file path opens the file.  Options include which files to search including all open files and replace.
+
+CATEGORY:  VIEW
+
+01a Multiple columns
+Press Alt+Shift+2 to create a second column for a total of two columns.  Drag an open tab to the second column.  Press Alt+Shift+3 to create two more columns for a total of three columns.  Press Alt+Shift+1 to go back to one column.
+
+01b Multiple columns
+Press Alt,F,E or File-->Split View to open a second column on the same file.
+
+01c Multiple columns
+Hold Ctrl.  Click another tab or another file with the mouse.  A new column is created with the tab or another file opened.  Click the same tab or a different tab which closes or removes the other tab or other file.
+
+02 Tab
+Press Ctrl+Page Up to scroll tabs to the left.  Press Ctrl+Page Down to scroll tabs to the right.  The scrolling cycles around.
+Press Alt+*Number* to open a specific tab.  Alt+1 opens the leftmost tab.  Alt+2 opens the second leftmost tab.  Number 1 starts the number count on the leftmost tab.
+Press Ctrl+W to close a tab.
+Press Ctrl+Shift+T to open the recent closed tab.  Press Ctrl+Shift+T multiple times to open multiple recent closed tabs.
+
+03 Font size
+Press Ctrl++*Plus* to increase the font size.  Press Ctrl+-*Hyphen* to decrease the font size.
+
+04 Full screen
+Press F11 for full screen.  Press Shift+F11 for distraction-free full screen.
+
+CATEGORY:  GOTO
+
+01 Scroll
+Press Ctrl+Up to scroll up.
+Press Ctrl+Down to scroll down.
+
+02 Center at cursor position
+Press Ctrl+K, Ctrl+C or Ctrl+K, C to center the editor at the cursor's position.  Full menu path is Goto-->Scroll-->Scroll to selection or Alt, G, S, Enter.
+
+02 Ctrl+P go to
+a.  Press Ctrl+P, @, Up or Down to select function name, Enter to go to the function.  Ctrl+R is quicker to find a function or method.
+b.  Press Ctrl+P, #, Up or Down to select text or type a text, Enter to go to the text.
+c.  Press Ctrl+P, :, line number, Enter to go to the line number.  Ctrl+G is quicker to go to a line number.
+d.  Press Ctrl+P, Up or Down to select a file to view file quickly, Enter to open file.
+
+03 Bookmarks
+Press Ctrl+F2 to insert a bookmark.  Press F2 to go to the next bookmark.  Press Shift+F2 to go to the previous bookmark.  Press Ctrl+F2 at an existing bookmark to delete bookmark.  Press Ctrl+Shift+F2 to delete all bookmarks.  Full menu path is Goto-->Bookmarks or Alt, G, B.
+
+04 Goto modifications
+Press Ctrl+,*comma* to go to the previous modified text in line number order.
+Press Ctrl+.*period* to go to the next modified text in line number order.
+
+CATEGORY:  TOOLS
+
+01 Command Palette
+Press Ctrl+Shift+P to open the Command Palette.  The Command Palette speeds up editing or programming.  For example, press Ctrl+L to select the sentence below.  Press Ctrl+Shift+P. Type convert to convert the case.  Other examples are sort, HTML encode, reindent, and set syntax such as HTML or Python.  A personal tip is think of Shift in Ctrl+Shift+P as using a command from the menu bar.
+
+The quick brown fox jumped over the lazy dog.
+
+Original
+The quick brown fox jumped over the lazy dog.
+
+02a Install Package Manager
+1.  Google search Sublime Text Package Manager named Package Control.  Link is https://packagecontrol.io/.  Click Installation upper right.  Follow instructions.  These are the procedures to install Package Manager.
+2.  Press Ctrl+Shift+P, type install package, select Package Control: Install Package.
+3.  Browse the list of packages.  Type a keyword to narrow package search.  Select a package to install package.
+4.  Remove package or uninstall package.  Preferences-->Package ControL-->type remove-->Package Control; Remove Package-->select package to remove or uninstall.
+
+02b A Package Manager example.  Install Emmet.
+1.  Press Ctrl+Shift+P.  Type install or Package Control: Install Package.  Select Package Control: Install Package.
+2.  Type Emmet.
+3.  Press Enter.  Emmet is installing.
+4.  You may close Sublime Text and reopen Sublime Text after installation is completed.
+5.  The procedure is the same for installing other packages.
+
+03a Snippets
+View the snippets available in file and the file syntax Tools-->Snippets... or Ctrl+Shift+P, type snippet.
+
+03b Snippets
+Tools-->Developer-->New Snippet.
+
+04 Macros
+1.  Press Ctrl+Q or Tools-->Record Macro to record a macro.  Press Ctrl+Q again or Tools-->Stop Recording Macro to stop recording a macro.
+2.  Press Ctrl+Shift+Q or Tools-->Playback Macro to play Macro.
+3.  Tools-->Save Macro... to save a Macro.
+
+CATEGORY:  PROJECT
+
+Drag a folder to Sublime Text from Windows Explorer to create a project.
+Project-->Save Project As.... to save a project consisting of the files and folder used.  Project-->Open Project to open a project with its files and folders.
+Press Ctrl+K, Ctrl+B or Ctrl+K,B to open the sidebar.  The sidebar shows files and folders.
+File-->Open Folder-->select a folder-->Select Folder opens a new window.
+
+CATEGORY:  PREFERENCES
+
+01 Custom settings
+1.  Preference-->Settings to open custom settings.
+2.  Make custom settings on the right tab Preferences.sublime-settings.
+3a.  Sublime Text Themes and Color Schemes on the right tab Preferences.sublime-settings.  IMO, use the default themes and color schemes.
+{
+    "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+    "font_size": 14,
+    "ignored_packages":
+    [
+        "Vintage",
+    ],
+    "theme": "Default.sublime-theme",
+}
+
+3b.  However, I modified the "font_size" number from 14 to 15 and added "hide_pointer_while_typing" to false.
+{
+    "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+    "font_size": 15,
+    "ignored_packages":
+    [
+        "Vintage",
+    ],
+    "theme": "Default.sublime-theme",
+    "hide_pointer_while_typing": false,
+}
+
+02 Key Bindings
+Go to Preferences-->Key Bindings to create personal shortcut keys.
+
+CATEGORY:  MISCELLANEOUS
+
+Right mouse click
+Press Shift+F10 for right mouse click or open context pop-up menu.
+
+CATEGORY:  HTML
+
+01a Wrap HTML tag
+Select the three sentences below.  Press Alt+Shift+W to wrap selections with an HTML tag.
+We lovel the breathe air.
+Candy dandy.
+Bite the tree.
+
+Solution:
+<p>We lovel the breathe air.
+Candy dandy.
+Bite the tree.</p>
+
+01b Wrap HTML tag
+Select each of the three sentences below with cursors at the end of the sentences.  Press Alt+Shift+W to wrap selections with an HTML tag.
+We lovel the breathe air.
+Candy dandy.
+Bite the tree.
+
+Solution:
+<p>We lovel the breathe air.</p>
+<p>Candy dandy.</p>
+<p>Bite the tree.</p>
+
+02 Select between HTML elements
+Press Ctrl+Shift+A to select contents in a HTML element.
+<p>Press Ctrl+Shift+A to select the sentence contained in the p tags.</p>
+
+03 Close HTML tag
+Press Alt+.*period* to close HTML tags.
+<p>I type the sentence.  Press Alt+.*period* to add the </p> at the end of the sentence.
+
+04 Emmet snippets.  Emmet Package must be installed.
+1a.  Open a blank .html file.  Type html, press tab, standard tags <html></html> appears.
+1b.  Open a blank .html file.  Type !, press tab, the Emmet HTML template appears.
+2.  Use the snippets from the menu bar Tools-->Snippets-->Snippet: HTML or Ctrl+Shift+P, type snippet, select Snippet: HTML for the Emmet HTML template appears.
