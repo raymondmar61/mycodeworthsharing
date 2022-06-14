@@ -124,20 +124,20 @@ New line above.
 No is a bad word sometimes.
 
 05a Delete text left of cursor
-Press Ctrl+Shift+Backspace or hold Ctrl, K, Backspace to delete text on the left side of the cursor.
+Press Ctrl+Shift+Backspace or hold Ctrl,K,Backspace to delete text on the left side of the cursor.
 
-Practice delete from the left of the cursor by placing the cursor anywhere on the sentence Ctrl+Shift+Backspace or hold Ctrl, K, Backspace.
+Practice delete from the left of the cursor by placing the cursor anywhere on the sentence Ctrl+Shift+Backspace or hold Ctrl,K,Backspace.
 
 Original
-Practice delete from the left of the cursor by placing the cursor anywhere on the sentence Ctrl+Shift+Backspace or hold Ctrl, K, Backspace.
+Practice delete from the left of the cursor by placing the cursor anywhere on the sentence Ctrl+Shift+Backspace or hold Ctrl,K,Backspace.
 
 05b Delete text right of cursor
-Press Ctrl+Shift+Del or hold Ctrl, K, K to delete text on the right side of the cursor.
+Press Ctrl+Shift+Del or hold Ctrl,K,K to delete text on the right side of the cursor.
 
-Practice delete from the right of the cursor by placing the cursor anywhere on the sentence Ctrl+Shift+Del or hold Ctrl, K, K.
+Practice delete from the right of the cursor by placing the cursor anywhere on the sentence Ctrl+Shift+Del or hold Ctrl,K,K.
 
 Original
-Practice delete from the right of the cursor by placing the cursor anywhere on the sentence Ctrl+Shift+Del or hold Ctrl, K, K.
+Practice delete from the right of the cursor by placing the cursor anywhere on the sentence Ctrl+Shift+Del or hold Ctrl,K,K.
 
 06a Indent 
 Select any or all sentences below.  Press Ctrl+] to indent.
@@ -276,7 +276,7 @@ I once had a cat.  The cat was fast.  He was much faster than the average cat.
 Hold Shift+Right Mouse Click drag up or down to create multiple cursor lines.
 Hold Shift+Right Mouse Click drag up or down to create multiple cursor lines, press End to move cursors to the end of the line.
 Hold Shift+Right Mouse Click drag up or down to create multiple cursor lines, press Home to move cursors to the beginning of the line.
-Hold Alt+Ctrl, press Up or Down to create multiple cursor lines.  Press End to move cursors to the end of the line.  Press Home to move cursors to the beginning of the line.  Linux is Alt+Shift instead of Alt+Ctrl.
+Hold Alt+Ctrl+Up or Alt+Ctrl+Down to create multiple cursor lines.  Press End to move cursors to the end of the line.  Press Home to move cursors to the beginning of the line.  Linux is Alt+Shift instead of Alt+Ctrl.
 
 Monday is a day.
 Tuesday is a day.
@@ -323,6 +323,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 Press Ctrl+L to select an entire line.  Press Ctrl+L or press Ctrl+L, L multiple times to select multiple lines.
 Press Ctrl+Shift+L after selecting a line or multiple lines for multiple cursors at the end of the line or lines and remove the last carriage return.
 Press Ctrl+Shift+L, Home after selecting a line or multiple lines for multiple cursors at the beginning of the line or lines and remove the last carriage return.
+Okay to highlight multiple lines by mouse first.  Press Ctrl+Shift+L second.
 
 Monday is a day.
 Tuesday is a day.
@@ -417,10 +418,10 @@ Press Ctrl+Down to scroll down.
 Press Ctrl+K, Ctrl+C or Ctrl+K, C to center the editor at the cursor's position.  Full menu path is Goto-->Scroll-->Scroll to selection or Alt, G, S, Enter.
 
 02 Ctrl+P go to
-a.  Press Ctrl+P, @, Up or Down to select function name, Enter to go to the function.  Ctrl+R is quicker to find a function or method.
+a.  Press Ctrl+P, Up or Down to select a file to view file quickly, Enter to open file.
 b.  Press Ctrl+P, #, Up or Down to select text or type a text, Enter to go to the text.
+c.  Press Ctrl+P, @, Up or Down to select function name, Enter to go to the function.  Ctrl+R is quicker to find a function or method.
 c.  Press Ctrl+P, :, line number, Enter to go to the line number.  Ctrl+G is quicker to go to a line number.
-d.  Press Ctrl+P, Up or Down to select a file to view file quickly, Enter to open file.
 
 03 Bookmarks
 Press Ctrl+F2 to insert a bookmark.  Press F2 to go to the next bookmark.  Press Shift+F2 to go to the previous bookmark.  Press Ctrl+F2 at an existing bookmark to delete bookmark.  Press Ctrl+Shift+F2 to delete all bookmarks.  Full menu path is Goto-->Bookmarks or Alt, G, B.
