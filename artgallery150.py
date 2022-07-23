@@ -2,8 +2,8 @@ import sqlite3
 
 def addartist(artistid, name, address, town, country, postcode):
     # def addartist():
-    db = sqlite3.connect("artgallery.db")
-    cursor = db.cursor()
+    # db = sqlite3.connect("artgallery.db")
+    # cursor = db.cursor()
     # cursor.execute("SELECT count(*) from artists;")
     # artistid = cursor.fetchall()[0][0] + 1
     # name = input("Enter artist's name: ")
@@ -14,13 +14,13 @@ def addartist(artistid, name, address, town, country, postcode):
     cursor.execute("""
     INSERT into artists values(?,?,?,?,?,?);
     """, (artistid, name, address, town, country, postcode))
-    db.commit()
-    db.close()
+    # db.commit()
+    # db.close()
 
 def addpiece(pieceid, artistid, title, medium, price):
     # def addpiece():
-    db = sqlite3.connect("artgallery.db")
-    cursor = db.cursor()
+    # db = sqlite3.connect("artgallery.db")
+    # cursor = db.cursor()
     # cursor.execute("SELECT count(*) from pieces;")
     # pieceid = cursor.fetchall()[0][0] + 1
     # artistid = int(input("Enter artist's id: "))
@@ -30,13 +30,13 @@ def addpiece(pieceid, artistid, title, medium, price):
     cursor.execute("""
     INSERT into pieces values(?,?,?,?,?);
     """, (pieceid, artistid, title, medium, price))
-    db.commit()
-    db.close()
+    # db.commit()
+    # db.close()
 
-def soldpiece(pieceid):
-    # def soldpiece():
-    db = sqlite3.connect("artgallery.db")
-    cursor = db.cursor()
+def soldpiece():
+    # def soldpiece(pieceid):
+    # db = sqlite3.connect("artgallery.db")
+    # cursor = db.cursor()
     # pieceid = input("Enter sold piece id:")
     pieceid = "2"
     cursor.execute("SELECT * from pieces where pieceid = (?)", (pieceid))
@@ -49,8 +49,40 @@ def soldpiece(pieceid):
     cursor.execute("""
     DELETE from pieces
     where pieceid = (?);""", (pieceid))
-    db.commit()
-    db.close()
+    # db.commit()
+    # db.close()
+
+def viewartist():
+    cursor.execute("SELECT * from artists;")
+    print(cursor.fetchall())
+
+def viewpieceofart():
+    cursor.execute("SELECT * from pieces;")
+    print(cursor.fetchall())
+
+def searchartist():
+    searchartistname = input("Enter artist name: ")
+    searchartistname = "%" + searchartistname + "%"
+    cursor.execute("""SELECT * from artists where name like (?);""", (searchartistname,))
+    print(cursor.fetchall())
+
+def searchpieceofartname():
+    searchpieceofartname = input("Enter piece of art name: ")
+    searchpieceofartname = "%" + searchpieceofartname + "%"
+    cursor.execute("""SELECT * from pieces where title like (?);""", (searchpieceofartname,))
+    print(cursor.fetchall())
+
+def searchpieceofartmedium():
+    searchpieceofartmedium = input("Enter piece of art medium: ")
+    searchpieceofartmedium = "%" + searchpieceofartmedium + "%"
+    cursor.execute("""SELECT * from pieces where medium like (?);""", (searchpieceofartmedium,))
+    print(cursor.fetchall())
+
+def searchpieceofartprice():
+    priceinput = input("Enter piece of art price range separated by a space.  For example, 100 200: ")
+    splitprice = priceinput.split()
+    cursor.execute("""SELECT * from pieces where price between (?) and (?);""", (splitprice[0], splitprice[1]))
+    print(cursor.fetchall())
 
 
 #Connect to artgallery database
@@ -68,32 +100,49 @@ menuprompt = """---Art Gallery---
 Please choose one of these options:
 1) Add new artist
 2) Add new piece of art
-3) Temp test add new artist and new piece of art
-5) Exit
+3) Enter sold piece of art
+4) View artists
+5) View pieces of art
+6) Search artist
+7) Search piece of art name
+8) Search piece of art medium
+9) Search piece of art price
+10) Exit
+11) Temp test add new artist and new piece of art
 
 Your selection: """
-while (userinput := input(menuprompt)) != "5":  #RM:  need paranthesis for (userinput := input(menuprompt))
+while (userinput := input(menuprompt)) != "10":  #RM:  need paranthesis for (userinput := input(menuprompt))
     if userinput == "1":
         addartist(1, "Martin Leighton", "5 Park Place", "Peterborough", "Cambridgeshire", "PE32 5LP")
         addartist(2, "Eva Czarniecka", "77 Warner Close", "Chelmsford", "Essex", "CM22 5FT")
-        break
     elif userinput == "2":
         addpiece(4, 5, "Woman with black Labrador", "Oil", 220)
         addpiece(2, 5, "Bees & thistles", "Watercolour", 85)
-        break
     elif userinput == "3":
+        soldpiece()
+    elif userinput == "4":
+        viewartist()
+    elif userinput == "5":
+        viewpieceofart()
+    elif userinput == "6":
+        searchartist()
+    elif userinput == "7":
+        searchpieceofartname()
+    elif userinput == "8":
+        searchpieceofartmedium()
+    elif userinput == "9":
+        searchpieceofartprice()
+    elif userinput == "10":
+        break
+    elif userinput == "11":
         addartist(1, "Martin Leighton", "5 Park Place", "Peterborough", "Cambridgeshire", "PE32 5LP")
         addartist(2, "Eva Czarniecka", "77 Warner Close", "Chelmsford", "Essex", "CM22 5FT")
         addpiece(4, 5, "Woman with black Labrador", "Oil", 220)
         addpiece(2, 5, "Bees & thistles", "Watercolour", 85)
-        break
     else:
         print("Invalid input.  Please try again.")
 cursor.execute("SELECT * from artists;")
 print(cursor.fetchall())
-cursor.execute("SELECT * from pieces;")
-print(cursor.fetchall())
-soldpiece(2)
 cursor.execute("SELECT * from pieces;")
 print(cursor.fetchall())
 cursor.execute("""
