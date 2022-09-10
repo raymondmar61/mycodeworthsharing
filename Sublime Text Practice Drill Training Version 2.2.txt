@@ -472,7 +472,7 @@ CATEGORY:  PREFERENCES
 01 Custom settings
 1.  Preference-->Settings to open custom settings.
 2.  Make custom settings on the right tab Preferences.sublime-settings.
-3a.  Sublime Text Themes and Color Schemes on the right tab Preferences.sublime-settings.  IMO, use the default themes and color schemes.
+3a.  Sublime Text Themes and Color Schemes on the right tab Preferences.sublime-settings.
 {
     "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
     "font_size": 14,
