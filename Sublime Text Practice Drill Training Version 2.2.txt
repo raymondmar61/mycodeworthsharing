@@ -124,20 +124,22 @@ New line above.
 No is a bad word sometimes.
 
 05a Delete text left of cursor
-Press Ctrl+Shift+Backspace or hold Ctrl,K,Backspace to delete text on the left side of the cursor.
+Press Ctrl+Backspace to delete text on the left side of the cursor.
+Press Ctrl+Shift+Backspace or hold Ctrl,K,Backspace to delete all text on the left side of the cursor.
 
-Practice delete from the left of the cursor by placing the cursor anywhere on the sentence Ctrl+Shift+Backspace or hold Ctrl,K,Backspace.
+Practice delete from the left of the cursor by placing the cursor anywhere on the sentence Ctrl+Backspace, Ctrl+Shift+Backspace, or hold Ctrl,K,Backspace.
 
 Original
-Practice delete from the left of the cursor by placing the cursor anywhere on the sentence Ctrl+Shift+Backspace or hold Ctrl,K,Backspace.
+Practice delete from the left of the cursor by placing the cursor anywhere on the sentence Ctrl+Backspace, Ctrl+Shift+Backspace, or hold Ctrl,K,Backspace.
 
 05b Delete text right of cursor
-Press Ctrl+Shift+Del or hold Ctrl,K,K to delete text on the right side of the cursor.
+Press Ctrl+Del to delete text on the right side of the cursor.
+Press Ctrl+Shift+Del or hold Ctrl,K,K to delete all text on the right side of the cursor.
 
-Practice delete from the right of the cursor by placing the cursor anywhere on the sentence Ctrl+Shift+Del or hold Ctrl,K,K.
+Practice delete from the right of the cursor by placing the cursor anywhere on the sentence Ctrl+Del, Ctrl+Shift+Del, or hold Ctrl,K,K.
 
 Original
-Practice delete from the right of the cursor by placing the cursor anywhere on the sentence Ctrl+Shift+Del or hold Ctrl,K,K.
+Practice delete from the right of the cursor by placing the cursor anywhere on the sentence Ctrl+Del, Ctrl+Shift+Del, or hold Ctrl,K,K.
 
 06a Indent 
 Select any or all sentences below.  Press Ctrl+] to indent.  Press Ctrl+] multiple times to indent.
@@ -234,7 +236,7 @@ Press Ctrl+/ to comment a string.
 Press Ctrl+Shift+/ to block comment strings.
 
 10 Last 15 copies and cuts
-Press Ctrl+K, V or press Ctrl+K, Ctrl+V for a popup window displaying  the last 15 copies and cuts.
+Press Ctrl+K, V or press Ctrl+K, Ctrl+V for a popup window displaying the last 15 copies and cuts.
 
 11 Recent edits
 Right mouse click select Show Unsaved Changes to see recent edits.  Or press Shift+F10, select Show Unsaved Changes.
@@ -384,7 +386,7 @@ Press Ctrl+Shift+F or Find-->Find in Files to search in a file.  Search results 
 CATEGORY:  VIEW
 
 01a Multiple columns
-Press Alt+Shift+2 to create a second column for a total of two columns.  Drag an open tab to the second column.  Press Alt+Shift+3 to create two more columns for a total of three columns.  Press Alt+Shift+1 to go back to one column.
+Press Alt+Shift+2 to create a second column for a total of two columns.  Drag an open tab to the second column.  Press Alt+Shift+3 to create two more columns for a total of three columns.  Press Alt+Shift+4 to create three more columns for a total of four columns.  Press Alt+Shift+1 to go back to one column.
 
 01b Multiple columns
 Press Alt,F,E or File-->Split View to open a second column on the same file.
@@ -392,16 +394,22 @@ Press Alt,F,E or File-->Split View to open a second column on the same file.
 01c Multiple columns
 Hold Ctrl.  Click another tab or another file with the mouse.  A new column is created with the tab or another file opened.  Click the same tab or a different tab which closes or removes the other tab or other file.
 
-02 Tab
+02 Multiple rows
+Press Alt+Shift+8 to create two rows.  Press Alt+Shift+9 to create three rows.
+
+03 Four squares
+Press Alt+Shift+5 to create four squares or two rows and two columns.
+
+04 Tab
 Press Ctrl+Page Up to scroll tabs to the left.  Press Ctrl+Page Down to scroll tabs to the right.  The scrolling cycles around.
 Press Alt+*Number* to open a specific tab.  Alt+1 opens the leftmost tab.  Alt+2 opens the second leftmost tab.  Number 1 starts the number count on the leftmost tab.
 Press Ctrl+W to close a tab.
 Press Ctrl+Shift+T to open the recent closed tab.  Press Ctrl+Shift+T multiple times to open multiple recent closed tabs.
 
-03 Font size
+05 Font size
 Press Ctrl++*Plus* to increase the font size.  Press Ctrl+-*Hyphen* to decrease the font size.
 
-04 Full screen
+06 Full screen
 Press F11 for full screen.  Press Shift+F11 for distraction-free full screen.
 
 CATEGORY:  GOTO
