@@ -270,9 +270,9 @@ Press Alt+F3 on the word cat to select all the words cat.
 
 I once had a cat.  The cat was fast.  He was much faster than the average cat.
 
-Press Ctrl+F3 on the first cat word to find and select the next cat word.
+Press Ctrl+F3 at the beginning of the first cat word to select the first cat word and find all other cat words.  Otherwise, the second cat word is selected.
 
-I once had a cat.  The cat was fast.  He was much faster than the average cat.
+Put the cursor at the left of the letter c in cat.  The first cat is selected.  Otherwise, the second cat word in the second sentence is selected.
 
 01b Cursor
 Hold Shift+Right Mouse Click drag up or down to create multiple cursor lines.
