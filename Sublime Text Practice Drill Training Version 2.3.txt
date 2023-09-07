@@ -433,6 +433,7 @@ Press Ctrl+K, Ctrl+C or Ctrl+K, C to center the editor at the cursor's position.
 03 Switch file
 Press Ctrl+Page Up to scroll tabs to the left.  Press Ctrl+Page Down to scroll tabs to the right.  The scrolling cycles around.
 Press Alt+*Number* to open a specific tab.  Alt+1 opens the leftmost tab.  Alt+2 opens the second leftmost tab.  Number 1 starts the number count on the leftmost tab.
+Two rows.  Press Ctrl+1 to select the top row or Group 1.  Press Ctrl+2 to select the bottom row or Group 2.  If there are three rows, then Ctrl+2 to select the middle row or Group 2 and Ctrl+3 to select the bottom row or Group 3.
 
 04 Ctrl+P go to
 a.  Press Ctrl+P, Up or Down to select a file to view file quickly, Enter to open file.
