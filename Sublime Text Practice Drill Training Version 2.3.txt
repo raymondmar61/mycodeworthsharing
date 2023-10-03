@@ -266,11 +266,11 @@ Press Ctrl+D to select an entire word.  Press Ctrl+D on the word cat to select a
 
 I once had a cat.  The cat was fast.  He was much faster than the average cat.
 
-Press Alt+F3 on the word cat to select all the words cat.
+Press Alt+F3 on the word cat to select all the words cat.  Alt+F3 is Quick Find All.
 
 I once had a cat.  The cat was fast.  He was much faster than the average cat.
 
-Press Ctrl+F3 at the beginning of the first cat word to select the first cat word and find all other cat words.  Otherwise, the second cat word is selected.
+Press Ctrl+F3 at the beginning of the first cat word to select the first cat word and find all other cat words.  Otherwise, the second cat word is selected.  Ctrl+F3 is Quick Find.
 
 Put the cursor at the left of the letter c in cat.  The first cat is selected.  Otherwise, the second cat word in the second sentence is selected.
 
@@ -391,7 +391,19 @@ Multiple tabs and multiple columns in view.  Press Ctrl+J, Ctrl+Right to unselec
 
 CATEGORY:  FIND
 
-01 Advanced find
+01 Find
+Press Ctrl+F to open the Find window.  Highlight a word, press Ctrl+F to find the highlighted word.
+Press F3 to Find Next the word in the Find window.  Press Shift+F3 to Find Previous the word in the Find window.
+
+02 Replace
+Press Ctrl+H to open the Find And Replace window.  Highlight a word, Press Ctrl+H to find the highlighted word to be replaced.
+Press Ctrl+Shift+H to Replace Next the word in the Find And Replace window.
+
+03 Quicks
+Press Ctrl+F3 to Quick Find the word the cursor is positioned.
+Press Alt+F3 to Quick Find All the word the cursor is positioned.
+
+04 Advanced find
 Press Ctrl+Shift+F or Find-->Find in Files to search in a file.  Search results appear in another tab.  Double click on the search word either opens the file or zooms the opened file to the search word.  Double click on the file path opens the file.  Options include which files to search including all open files and replace.
 
 CATEGORY:  VIEW
